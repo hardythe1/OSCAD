@@ -1,0 +1,40 @@
+* eeschema netlist version 1.1 (spice format) creation date: tuesday 09 october 2012 12:01:03 am ist
+
+* Plotting option vplot1
+* Plotting option vplot1
+* Plotting option vplot1
+* Analog to Digital converter adc
+* Analog to Digital converter adc
+* Analog to Digital converter adc
+* Analog to Digital converter adc
+r2  1 0 1000
+v2  1 0 pwl(0 0 2.6 0 2.600000001 5 3 5 )
+r3  4 0 1000
+v3  4 0 pulse(0 5 0 0 0 0.5 1)
+r4  2 0 1000
+v4  2 0 dc 0
+v1  14 0 dc 1
+r1  14 0 1000
+* 74hc74
+a1 [2] [13] u8
+.model u8 adc_bridge
+a2 [4] [8] u7
+.model u7 adc_bridge
+a3 [1] [6] u6
+.model u6 adc_bridge
+a4 [14] [12] u5
+.model u5 adc_bridge
+a5 6 8 ~12 ~13 3 5 u1
+a6 3 8 ~12 ~13 10 11 u1
+.model u1 d_dff
+
+.tran  10e-03 4e-00 0e-00
+
+* Control Statements 
+.control
+run
+plot v(4)
+plot v(1)
+plot v(3)
+.endc
+.end
