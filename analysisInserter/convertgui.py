@@ -247,7 +247,7 @@ class PageSix(wx.Panel):
         t = wx.StaticText(self, -1, "Transfer Function", (60,60))
 class MainFrame(wx.Frame):
     def __init__(self):#self,parent,wx.ID_ANY, title
-        wx.Frame.__init__(self,None, wx.ID_ANY, title="kicad ngspice")
+        wx.Frame.__init__(self,None, wx.ID_ANY, title="kicad to ngspice")
 	self.CreateStatusBar(style=0)
 	self.control = wx.TextCtrl(self, 1, style=wx.TE_MULTILINE)
 	filemenu= wx.Menu()

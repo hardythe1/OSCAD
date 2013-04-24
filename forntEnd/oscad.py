@@ -79,7 +79,10 @@ def help_Project(e=None):
 
 # Display help content
 def about_Project():
-  tkMessageBox.showinfo("About Editor","Created by Yogesh Dilip Save")
+  tkMessageBox.showinfo("About Oscad","Oscad is a free & open source CAD tool for\
+  Electronics & Electrical Engineers.\n \
+  \nDeveloped by putting together open source soft like:\neeschema(kicad), \nPCB layout editor (kicad), \nNGSpice, \nScilab.\n\
+  \nDeveloped at IIT Bombay by FOSSEE team")
 
 # Create and configure a graphical window
 root = Tk()
@@ -139,10 +142,9 @@ helpmenu.add_command(label="About...",command=about_Project)
 
 # Create shortcut keys
 root.bind("<F2>", new_Project)
-root.bind("<F3>", open_Project)
+root.bind("<F3>", changeDirectory)
 root.bind("<F4>", exit_Project)
 root.bind("<F1>", help_Project)
-root.bind("<F5>", changeDirectory)
 
 """mainWindow = LabelFrame(root, bd=4, relief=SUNKEN,text="Main Window", bg='lightblue')
 mainWindow.pack(side=TOP,fill="both", padx=5, pady=5,expand="Y")
