@@ -45,7 +45,7 @@ class PageOne(wx.Panel):
     hbox = wx.BoxSizer(wx.HORIZONTAL)
     self.start = wx.SpinCtrl(self, -1, '',  (150, 75), (60, -1))
     hbox.Add(self.start)
-    self.startscale = wx.ComboBox(self, -1, value = 'Volts or Amperes',  choices=['mV or mA', 'uV or uA', 'nV or nA', 'pV or pA'], size=(60, -1), style=wx.CB_DROPDOWN)
+    self.startscale = wx.ComboBox(self, -1, value = 'Volts or Amperes',  choices=['mV or mA', 'uV or uA', 'nV or nA', 'pV or pA'], size=(160, -1), style=wx.CB_DROPDOWN)
     hbox.Add(self.startscale)
     grid1.Add(hbox)
 
@@ -53,7 +53,7 @@ class PageOne(wx.Panel):
     hbox = wx.BoxSizer(wx.HORIZONTAL)
     self.step = wx.SpinCtrl(self, -1, '',  (150, 75), (60, -1))
     hbox.Add(self.step)
-    self.stepscale = wx.ComboBox(self, -1, value = 'Volts or Amperes',  choices=['mV or mA', 'uV or uA', 'nV or nA', 'pV or pA'], size=(60, -1), style=wx.CB_DROPDOWN)
+    self.stepscale = wx.ComboBox(self, -1, value = 'Volts or Amperes',  choices=['mV or mA', 'uV or uA', 'nV or nA', 'pV or pA'], size=(160, -1), style=wx.CB_DROPDOWN)
     hbox.Add(self.stepscale)
     grid1.Add(hbox)
 
@@ -61,7 +61,7 @@ class PageOne(wx.Panel):
     hbox = wx.BoxSizer(wx.HORIZONTAL)
     self.stop = wx.SpinCtrl(self, -1, '',  (150, 75), (60, -1))
     hbox.Add(self.stop)
-    self.stopscale = wx.ComboBox(self, -1, value = 'Volts or Amperes',  choices=['mV or mA', 'uV or uA', 'nV or nA', 'pV or pA'], size=(60, -1), style=wx.CB_DROPDOWN)
+    self.stopscale = wx.ComboBox(self, -1, value = 'Volts or Amperes',  choices=['mV or mA', 'uV or uA', 'nV or nA', 'pV or pA'], size=(160, -1), style=wx.CB_DROPDOWN)
     hbox.Add(self.stopscale)
     grid1.Add(hbox)
     
