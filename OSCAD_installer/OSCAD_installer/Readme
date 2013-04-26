@@ -1,0 +1,10 @@
+
+
+
+Please make install.sh executable by running following command on linux terminal
+chmod 755 install.sh
+
+Run install_OSCAD.sh
+./install_OSCAD.sh
+
+
