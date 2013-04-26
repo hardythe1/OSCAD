@@ -191,6 +191,12 @@ def insertSpecialSourceParam(schematicInfo):
 	theta=raw_input('  Enter damping factor (1/seconds): ')
         print "----------------------------------------------"
 	compline=compline + "("+vo+" "+va+" "+freq+" "+td+" "+theta+")"
+      elif words[3]=="ac":
+        print "----------------------------------------------\n"
+        print "Add parameters for ac source "+compName
+	v_a=raw_input('  Enter amplitude (Volts/Amps): ')
+	print "----------------------------------------------"
+	compline=compline + " " + v_a
       elif words[3]=="exp":
         print "----------------------------------------------\n"
         print "Add parameters for exponential source "+compName
