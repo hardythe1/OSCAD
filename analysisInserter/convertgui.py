@@ -45,7 +45,7 @@ class PageOne(wx.Panel):
     hbox = wx.BoxSizer(wx.HORIZONTAL)
     self.start = wx.SpinCtrl(self, -1, '',  (150, 75), (60, -1))
     hbox.Add(self.start)
-    self.startscale = wx.ComboBox(self, -1, value = 'V/A',  choices=['mV/A', 'uV/A', 'nV/A', 'pV/A'], size=(60, -1), style=wx.CB_DROPDOWN)
+    self.startscale = wx.ComboBox(self, -1, value = 'Volts or Amperes',  choices=['mV or mA', 'uV or uA', 'nV or nA', 'pV or pA'], size=(60, -1), style=wx.CB_DROPDOWN)
     hbox.Add(self.startscale)
     grid1.Add(hbox)
 
@@ -53,7 +53,7 @@ class PageOne(wx.Panel):
     hbox = wx.BoxSizer(wx.HORIZONTAL)
     self.step = wx.SpinCtrl(self, -1, '',  (150, 75), (60, -1))
     hbox.Add(self.step)
-    self.stepscale = wx.ComboBox(self, -1, value = 'V/A',  choices=['mV/A', 'uV/A', 'nV/A', 'pV/A'], size=(60, -1), style=wx.CB_DROPDOWN)
+    self.stepscale = wx.ComboBox(self, -1, value = 'Volts or Amperes',  choices=['mV or mA', 'uV or uA', 'nV or nA', 'pV or pA'], size=(60, -1), style=wx.CB_DROPDOWN)
     hbox.Add(self.stepscale)
     grid1.Add(hbox)
 
@@ -61,7 +61,7 @@ class PageOne(wx.Panel):
     hbox = wx.BoxSizer(wx.HORIZONTAL)
     self.stop = wx.SpinCtrl(self, -1, '',  (150, 75), (60, -1))
     hbox.Add(self.stop)
-    self.stopscale = wx.ComboBox(self, -1, value = 'V/A',  choices=['mV/A', 'uV/A', 'nV/A', 'pV/A'], size=(60, -1), style=wx.CB_DROPDOWN)
+    self.stopscale = wx.ComboBox(self, -1, value = 'Volts or Amperes',  choices=['mV or mA', 'uV or uA', 'nV or nA', 'pV or pA'], size=(60, -1), style=wx.CB_DROPDOWN)
     hbox.Add(self.stopscale)
     grid1.Add(hbox)
     
@@ -99,11 +99,9 @@ class PageTwo(wx.Panel):
         wx.Panel.__init__(self, parent)
         sizer = wx.StaticBoxSizer(wx.StaticBox(self, -1, 'Scale'), orient=wx.HORIZONTAL)
 	self.lin = wx.RadioButton(self, -1, 'Lin')
-	self.log = wx.RadioButton(self, -1, 'Log')
 	self.dec = wx.RadioButton(self, -1, 'Dec')
 	self.octal = wx.RadioButton(self, -1, 'Oct')
 	sizer.Add(self.lin)
-	sizer.Add(self.log)
 	sizer.Add(self.dec)
 	sizer.Add(self.octal)
 	grid1 = wx.GridSizer(5, 2)
@@ -113,18 +111,18 @@ class PageTwo(wx.Panel):
 	hbox = wx.BoxSizer(wx.HORIZONTAL)
 	self.start = wx.SpinCtrl(self, -1, '',  (150, 75), (60, -1))
 	hbox.Add(self.start)
-	self.startscale = wx.ComboBox(self, -1, value = 'Hz',  choices=['THz', 'GHz', 'MHz', 'KHz', 'Hz'], size=(60, -1), style=wx.CB_DROPDOWN)
+	self.startscale = wx.ComboBox(self, -1, value = 'Hz',  choices=['THz', 'GHz', 'Meg', 'KHz', 'Hz'], size=(60, -1), style=wx.CB_DROPDOWN)
 	hbox.Add(self.startscale)
 	grid1.Add(hbox)
 	grid1.Add(wx.StaticText(self,-1,'Stop Frequency'),1)
 	hbox = wx.BoxSizer(wx.HORIZONTAL)
 	self.stop = wx.SpinCtrl(self, -1, '',  (150, 75), (60, -1))
 	hbox.Add(self.stop)
-	self.stopscale = wx.ComboBox(self, -1, value = 'Hz',  choices=['THz', 'GHz', 'MHz', 'KHz', 'Hz'], size=(60, -1), style=wx.CB_DROPDOWN)
+	self.stopscale = wx.ComboBox(self, -1, value = 'Hz',  choices=['THz', 'GHz', 'Meg', 'KHz', 'Hz'], size=(60, -1), style=wx.CB_DROPDOWN)
 	hbox.Add(self.stopscale)
 	grid1.Add(hbox)
 	
-	grid1.Add(wx.StaticText(self,-1,'Steps/Decade'),1)
+	grid1.Add(wx.StaticText(self,-1,'Points/Decade'),1)
 	hbox = wx.BoxSizer(wx.HORIZONTAL)
 	self.datapoints = wx.SpinCtrl(self, -1, '',  (150, 75), (60, -1))
 	hbox.Add(self.datapoints)
@@ -147,8 +145,6 @@ class PageTwo(wx.Panel):
 	    ac_scale="lin"
 	elif self.dec.GetValue():
 	    ac_scale="dec"
-	elif self.log.GetValue():
-	    ac_scale = "log"
 	elif self.octal.GetValue():
 	    ac_scale = "octal"
 	previous_data = txtctrl.GetValue()
@@ -247,7 +243,7 @@ class PageSix(wx.Panel):
         t = wx.StaticText(self, -1, "Transfer Function", (60,60))
 class MainFrame(wx.Frame):
     def __init__(self):#self,parent,wx.ID_ANY, title
-        wx.Frame.__init__(self,None, wx.ID_ANY, title="kicad to ngspice")
+        wx.Frame.__init__(self,None, wx.ID_ANY, title="kicad ngspice")
 	self.CreateStatusBar(style=0)
 	self.control = wx.TextCtrl(self, 1, style=wx.TE_MULTILINE)
 	filemenu= wx.Menu()
