@@ -7,7 +7,7 @@
 
 clear
 global('LPCSim_HOME')
-OSCAD_HOME="/home/hardik/OSCAD"
+OSCAD_HOME="/home/ttt/OSCAD"
 LPCSim_HOME=OSCAD_HOME+'/LPCSim/LPCSim/'
 //%format('e',10);
 MaxNRitr=100;
