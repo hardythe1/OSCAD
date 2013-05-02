@@ -64,7 +64,11 @@ class ModelNameList():
           modelType="D"
         elif eachline[0]=='q':
           modelName=words[4]
-          modelType=raw_input("Please enter type of Transistor (NPN/PNP/nmos/pmos): ")
+          modelType=raw_input("Please enter type of BJT(NPN/PNP): ")
+          modelType=modelType.upper()
+	elif eachline[0]=='m':
+          modelName=words[4]
+          modelType=raw_input("Please enter type of MOS(nmos/pmos): ")
           modelType=modelType.upper()
 
         else:
