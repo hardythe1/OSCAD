@@ -4,7 +4,7 @@
 // This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
 // You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
 // It is modified by Yogesh Dilip Save for OSCAD Software on October 2012
-
+warning('off');
 function [A,B,D,C,x,fx]=buildMatricesSymbolic(_T)
 // Create Matrice A,  D, C and  vector b corresponding to circuit equation
    global g;
