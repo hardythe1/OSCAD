@@ -3,47 +3,45 @@ The top-level auxiliary file: oscad.aux
 The style file: plain.bst
 Database file #1: ref.bib.bib
 Warning--empty publisher in spice
-Warning--empty booktitle in yogesh-paper
-Warning--empty year in yogesh-paper
-You've used 2 entries,
+You've used 1 entry,
             2118 wiz_defined-function locations,
-            505 strings with 4201 characters,
-and the built_in function-call counts, 563 in all, are:
-= -- 43
-> -- 31
+            502 strings with 4061 characters,
+and the built_in function-call counts, 272 in all, are:
+= -- 21
+> -- 13
 < -- 0
-+ -- 12
-- -- 10
-* -- 36
-:= -- 100
-add.period$ -- 5
-call.type$ -- 2
-change.case$ -- 10
++ -- 5
+- -- 4
+* -- 16
+:= -- 52
+add.period$ -- 3
+call.type$ -- 1
+change.case$ -- 4
 chr.to.int$ -- 0
-cite$ -- 5
-duplicate$ -- 25
-empty$ -- 49
-format.name$ -- 10
-if$ -- 112
+cite$ -- 2
+duplicate$ -- 12
+empty$ -- 23
+format.name$ -- 4
+if$ -- 53
 int.to.chr$ -- 0
-int.to.str$ -- 2
-missing$ -- 3
-newline$ -- 12
-num.names$ -- 4
-pop$ -- 23
+int.to.str$ -- 1
+missing$ -- 2
+newline$ -- 8
+num.names$ -- 2
+pop$ -- 10
 preamble$ -- 1
-purify$ -- 9
+purify$ -- 4
 quote$ -- 0
-skip$ -- 13
+skip$ -- 7
 stack$ -- 0
-substring$ -- 10
-swap$ -- 2
+substring$ -- 5
+swap$ -- 1
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 6
-warning$ -- 3
-while$ -- 4
-width$ -- 3
-write$ -- 18
-(There were 3 warnings)
+type$ -- 2
+warning$ -- 1
+while$ -- 2
+width$ -- 2
+write$ -- 11
+(There was 1 warning)
