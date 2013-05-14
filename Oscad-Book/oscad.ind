@@ -1,0 +1,53 @@
+\begin{theindex}
+
+  \item Annotate, 26
+
+  \indexspace
+
+  \item Component, 13
+    \subitem library, 14
+      \subsubitem connector, 20
+      \subsubitem Oscad libraries, 13
+      \subsubitem plot, 18
+      \subsubitem power, 18
+    \subitem move, 22
+    \subitem place, 21
+    \subitem reference, 20
+    \subitem rotate, 22
+    \subitem values, 24
+
+  \indexspace
+
+  \item EDA
+    \subitem  tools, 3
+    \subitem design flow, 3
+  \item EEschema, 6
+  \item ERC, 26
+
+  \indexspace
+
+  \item Hotkeys, 12
+
+  \indexspace
+
+  \item Netlist, 27
+    \subitem for simulation, 27
+
+  \indexspace
+
+  \item Oscad, 4
+
+  \indexspace
+
+  \item PCB, 4
+
+  \indexspace
+
+  \item Schematic, 6
+    \subitem editor, 6
+    \subitem toolbar
+      \subsubitem left, 11
+      \subsubitem right, 11
+      \subsubitem top, 9
+
+\end{theindex}

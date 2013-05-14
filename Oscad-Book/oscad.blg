@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
+The top-level auxiliary file: oscad.aux
+The style file: plain.bst
+Database file #1: ref.bib.bib
+Warning--empty publisher in spice
+Warning--empty booktitle in yogesh-paper
+Warning--empty year in yogesh-paper
+You've used 2 entries,
+            2118 wiz_defined-function locations,
+            505 strings with 4201 characters,
+and the built_in function-call counts, 563 in all, are:
+= -- 43
+> -- 31
+< -- 0
++ -- 12
+- -- 10
+* -- 36
+:= -- 100
+add.period$ -- 5
+call.type$ -- 2
+change.case$ -- 10
+chr.to.int$ -- 0
+cite$ -- 5
+duplicate$ -- 25
+empty$ -- 49
+format.name$ -- 10
+if$ -- 112
+int.to.chr$ -- 0
+int.to.str$ -- 2
+missing$ -- 3
+newline$ -- 12
+num.names$ -- 4
+pop$ -- 23
+preamble$ -- 1
+purify$ -- 9
+quote$ -- 0
+skip$ -- 13
+stack$ -- 0
+substring$ -- 10
+swap$ -- 2
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 6
+warning$ -- 3
+while$ -- 4
+width$ -- 3
+write$ -- 18
+(There were 3 warnings)

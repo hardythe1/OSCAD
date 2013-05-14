@@ -1,0 +1,208 @@
+\chapter {Oscad Spoken Tutorials}
+
+Apart from learning how to use Oscad from this book, one can also refer to spoken tutorials (audio-video tutorials) created for Oscad. These tutorials are basicaly made for self learning and are very clear and detailed. Spoken Tutorial based SELF workshops on OSCAD comprises the following tutorials in the order mentioned below. They are categorized in to two levels, Beginner Level and Advanced Level.
+
+
+\section{Beginner Level}
+The beginner level has a set of tutorials on OSCAD and KiCad. As OSCAD uses KiCad for schematic creation and PCB layout design, the supporting tutorials on KiCad enhances the user's understanding of OSCAD.
+
+
+\subsection {Introduction to Oscad}
+ This tutorial aims at making the users get started with OSCAD. It covers the following:
+
+\begin{itemize}
+\item In this tutorial installation of OSCAD through a shell script is shown. 
+\item This script installs all the requisite software like Ngspice, KiCad, Scilab and Python.
+\item After installation of all software, an already created schematic of an RC filter is opened.
+\item A test run of Oscad is done using this circuit.
+\end{itemize}
+
+\subsection {Schematic creation and simulation using Oscad}
+This tutorial teaches how to create circuit schematic and simulate it using Oscad. A simple RC filter circuit is used as an example. The following sequence is adopted in the tutorial.
+\begin{itemize}
+\item Required components are choosen from their corresponding libraries and placed in the schematic editor.
+\item Components are connected together, annotated and values are assigned to them.
+\item Electric Rules Check is done and erroneous connections are corrected, if any.
+\item Spice netist is generated and is converted to NGSpice format.
+\item Circuit simuation is doen using NGSpice. 
+\end{itemize}
+
+\subsection {Designing Circuit Schematic in KiCad}
+
+\begin{itemize}
+\item This tutorial introduces KiCad.
+\item It teaches how to create a circuit schematic using EESchema and annotate various components in the schematic.
+\item Astable multivibrator circuit is used as an example.
+\item An assignment is given in the end for practice.
+\end{itemize}
+
+\subsection{Designing Printed Circuit Board using Oscad}
+
+\begin{itemize}
+\item Create netlist for PCB from schematic.
+\item Map footprints to components.
+\item Generate PCB layout.
+\item PCB layout of RC filter is created in this tutorial.
+\end{itemize}
+
+\subsection{Electric rule checking and Netlist Generation in KiCad}
+This tutorial teaches the following
+\begin{itemize}
+\item To assign values to components in the astable multivibrator circuit schematic
+created in the previous tutorial
+\item To perform electric rule check.
+\item To generate netlist for designing PCB layout
+
+\end{itemize}
+
+\subsection{Mapping components in KiCad}
+\begin{itemize}
+\item This tutorial explains how to  map components in a schematic with corresponding
+footprints.
+\item Cvpcb, the footprint editor in Kicad, is used to explain the same.
+\item Every component in the astable multivibrator circuit schematic is assigned a footprint 
+\end{itemize}
+
+\subsection{Designing PCB in KiCad}
+
+\begin{itemize}
+\item In this tutorial, printed circuit board layout of the astable multivibrator circuit is created.
+\item It also explains how to lay the tracks, modify the width of the tracks etc.
+\item Layer selection and track routing are also covered.
+\end{itemize}
+
+\section{Advanced Level}
+
+Advanced level has tutorials on Ngspice, model buildng using Oscad and subcircuit creation using Oscad. As Oscad uses Ngspice for simulation, the set of tutorials on Ngspice helps the user to know more about how simulations are done in Oscad.
+
+\subsection{Operating point analysis in Ngspice}
+\begin{itemize}
+\item This tutorial explains how to perform operating point analysis.
+\item It shows how to verify Kirchoff's voltage law using ngspice in, interactive mode using
+command­line interface \& using command script included in netlist.
+\end{itemize}
+
+
+
+\subsection{DC sweep analysis in Ngspice}
+
+This tutorial covers the following
+\begin{itemize}
+\item How to perform DC sweep  analysis.
+\item How to perform nested DC sweep analysis using two sweep variables.
+\end{itemize}
+
+\subsection{Model building using Oscad}
+
+
+In this tutorial, we show how to build a model for a diode. This includes
+
+\begin{itemize}
+\item Opening an already created circuit schematic of bridge rectifier
+\item Building/editing the “1N4007” diode model present in the bridge rectifier circuit using “model builder” tool.
+\item This is explained using a bridge rectifier circuit which contains 1N4007 diode.
+
+\end{itemize}
+\subsection{Subcircuit creation using Oscad}
+
+We show how to create and edit a subcircuit. This is explained using astable multivibrator circuit that has 555 timer IC as a subcircuit. The tutorial covers the following:
+
+\begin{itemize}
+\item An already created “astable multivibrator” schematic is opened to show the component “555 timer” in it.
+\item As 555 timer will be modelled as a subcircuit, the subcircuit schematic of 555 timer is shown next.
+\item The tutorial then shows how to edit the  “555 timer subcircuit” schematic.
+\end{itemize}
+
+
+
+
+\section{Instruction Sheet}
+
+This section should be used as set of instructions provided you have the Oscad spoken tutorials CD/DVD with you.
+
+
+
+\subsection{The procedure to practice}
+  \begin{itemize}
+  \item You have been given a set of spoken tutorials and files.
+  \item You will typically do one tutorial at a time.
+  \item You may listen to a spoken tutorial and reproduce all the commands shown in the video.
+  \item If you find it difficult to do the above, you may consider listening to the whole tutorial once and then practice during the second hearing.
+ 
+ \end{itemize}
+  
+
+\subsection{Please ensure}
+  \begin{itemize}
+  \item You have Linux Ubuntu 12.04 OS or above installed on your computer.
+\item You have a working internet connection on your computer.
+ \item You have basic {\tt knowledge about Linux } to follow these tutorials.
+ \end{itemize}
+
+
+  \subsection{Basic Module}
+  \begin{itemize}
+  \item Right-click on the file named {\tt index.html}, and choose {\tt Open with Firefox} to open this file in the Firefox web browser.
+  \item Read the instructions given.
+  \item In the left hand side panel you will see {\tt Basic Level}.
+  \item Please click on the module {\tt Basic Level}.
+\item In this module, there are a few tutorials.
+\item {\tt Introduction to Oscad} teaches how to install Oscad and test run Oscad using an example. 
+\item Click on it. You will see the video in the centre.
+  \item Click on the play button on the player to play the tutorial.
+  \item To view the tutorial in a bigger player, right-click on the video and choose {\tt View Video} option. 
+  \item Adjust the size of the player in such a way that you are able to practice in parallel.
+\item Follow the tutorial and reproduce all the activities as shown in the tutorial.
+\item Now you will have Oscad installed and working on your computer.
+  \end{itemize}
+  
+  
+  
+\subsection{Schematic creation and Simulation }
+\begin{itemize}
+\item Locate the next topic {\tt Schematic creation and Simulation}.
+\item Click on it. Follow the tutorial and reproduce all the activities as shown in the tutorial.
+\item Please save your project files that you will create while you practice this tutorial.
+\item Guidelines for saving your work are as follows-
+  
+  \subsubsection{Instructions for Practice}
+  \begin{itemize}
+  \item Create a folder on the {\tt Desktop} with your Name-RollNo-Component {\tt (Eg.vin-04-Oscad)}.
+  \item Give a unique name to the files you save, so as to recognize it next time. 
+  {\tt (Eg. Practice-1-Oscad)}.
+  \item Remember to save all your work in your folder.  
+  \item This will ensure that your files don't get over-written by someone else.
+  \item Remember to save your work from time to time instead of saving it at the end of the task.
+  \end{itemize}
+  \subsubsection{Instructions for Assignments}
+  \begin{itemize}
+  \item Attempt all the given assignments.
+  \item Save your work by creating a folder called {\tt Oscad-Assignment} in your main folder.
+  \end{itemize}
+  
+\item At 09:37 the video says that you have to watch KiCad tutorial - {\tt Designing Circuit schematic in KiCad}.
+\item Locate this tutorial on the left hand panel and watch it.
+\item Reproduce the astable multivibrator circuit schematic shown in it using Oscad.
+ \item After you finish this tutorial, locate the next tutorial {\tt Designing Printed Circuit Board}.
+\end{itemize}
+
+
+ 
+\subsection{Designing Printed Circuit Board}
+\begin{itemize}
+\item Click on the next topic {\tt Designing Printed Circuit Board}.
+
+\item You will need to use the practice files created in the previous tutorial.
+\item Follow this tutorial and reproduce all the activities as shown.
+\item At 08:50 the video says that you have to watch KiCad tutorials - 
+\begin{enumerate}
+\item Electric rule checking and netlist generation.
+\item Mapping components in KiCad.
+\item Designing printed circuit board in KiCad.
+\end{enumerate}
+\item Locate these tutorials on the left hand panel and watch it.
+\item Reproduce the layout of astable multivibrator shown in it using Oscad.
+\end{itemize}
+
+
+
