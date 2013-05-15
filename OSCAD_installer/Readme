@@ -1,10 +1,12 @@
 
-
-
-Please make install.sh executable by running following command on linux terminal
+1. Please make install.sh executable by running following command on linux terminal
 chmod 755 install.sh
 
-Run install_OSCAD.sh
+Run install_OSCAD.sh on the terminal to install the OSCAD
 ./install_OSCAD.sh
 
+2. Since the OSCAD (for now)uses static paths, after the OSCAD installation is completed please change the path of the OSCAD_HOME in the following files to your OSCAD installation directory(Ex: OSCAD_HOME=/home/your_username/OSCAD) 
+
+1.setPath.py inside the main OSCAD directory
+2.setPath.py inside the forntEnd directory present in the main OSCAD directory
 
