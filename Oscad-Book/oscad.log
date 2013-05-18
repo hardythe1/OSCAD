@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.2.15)  14 MAY 2013 21:36
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.2.15)  18 MAY 2013 16:34
 entering extended mode
  %&-line parsing enabled.
 **oscad.tex
@@ -14,8 +14,8 @@ orsk, romanian, irish, coptic, serbian, turkish, welsh, esperanto, uppersorbian
 rtuguese, spanish, galician, catalan, swedish, ukenglish, pinyin, loaded.
 (/usr/share/texmf-texlive/tex/latex/base/report.cls
 Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
-(/usr/share/texmf-texlive/tex/latex/base/size12.clo
-File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+(/usr/share/texmf-texlive/tex/latex/base/size10.clo
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@chapter=\count80
@@ -129,40 +129,35 @@ Style option: `fancybox' v1.3 <2000/09/19> (tvz)
 \EndVerbatimTokens=\toks23
 \Verbatim@Outfile=\write3
 \Verbatim@Infile=\read1
+) (/usr/share/texmf-texlive/tex/latex/ltxmisc/url.sty
+\Urlmuskip=\muskip11
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+(/usr/share/texmf-texlive/tex/latex/cite/cite.sty
+LaTeX Info: Redefining \cite on input line 285.
+LaTeX Info: Redefining \nocite on input line 356.
+Package: cite 2009/08/29  v 5.2
 )
 \@indexfile=\write4
 \openout4 = `oscad.idx'.
 
 
 Writing index file oscad.idx
-(./oscad.aux
-
-LaTeX Warning: Label `Terminal: make executable' multiply defined.
-
-
-LaTeX Warning: Label `Terminal: Oscad' multiply defined.
-
-
-LaTeX Warning: Label `12' multiply defined.
-
-
-LaTeX Warning: Label `net' multiply defined.
-
-)
+(./oscad.aux)
 \openout1 = `oscad.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
  (/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count101
@@ -179,11 +174,6 @@ LaTeX Font Info:    ... okay on input line 6.
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
-Overfull \hbox (5.71825pt too wide) in paragraph at lines 68--68
- [][] []\OT1/cmr/m/n/12 Insert Digital-to-Analog (D-to-A) and Analog-to-Digital
- 
- []
-
 [3])
 \tf@toc=\write5
 \openout5 = `oscad.toc'.
@@ -192,973 +182,1184 @@ Overfull \hbox (5.71825pt too wide) in paragraph at lines 68--68
 Chapter 1.
 [5
 
-]
-
-LaTeX Warning: Reference `install' on page 6 undefined on input line 21.
-
-
-LaTeX Warning: Reference `struct' on page 6 undefined on input line 21.
-
-
-LaTeX Warning: Reference `get' on page 6 undefined on input line 22.
-
-
-LaTeX Warning: Reference `pcb' on page 6 undefined on input line 22.
-
-
-LaTeX Warning: Reference `adv' on page 6 undefined on input line 22.
-
-
-LaTeX Warning: Reference `spo' on page 6 undefined on input line 22.
-
-[6]) (./texfiles/chap2.tex [7]
+]) (./texfiles/chap2.tex [6]
 Chapter 2.
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--7
+Underfull \hbox (badness 10000) in paragraph at lines 4--9
 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 8.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 10.
 (/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 8.
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 10.
 
-Underfull \hbox (badness 10000) in paragraph at lines 12--13
-
+Overfull \hbox (125.77309pt too wide) in paragraph at lines 26--28
+[] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 17--18
+Underfull \hbox (badness 10000) in paragraph at lines 32--33
 
  []
 
-[8
+[7
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 27--29
-
- []
-
-[9] <figures/oscad1.png, id=34, 803.0pt x 602.25pt>
+] <figures/oscad1.png, id=29, 803.0pt x 602.25pt>
 File: figures/oscad1.png Graphic file (type png)
  <use figures/oscad1.png>
-Underfull \hbox (badness 10000) in paragraph at lines 37--38
-
+<figures/scilab.png, id=30, 580.1675pt x 582.175pt>
+File: figures/scilab.png Graphic file (type png)
+ <use figures/scilab.png>
+Overfull \hbox (4.80058pt too wide) in paragraph at lines 54--62
+[]
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 38--39
-
- []
-
-
-Overfull \hbox (4.48622pt too wide) in paragraph at lines 41--41
-[]\OT1/cmr/bx/n/14.4 Step 2: Check whether ma-chine is 32bits or 64bits 
- []
-
-<figures/one.png, id=35, 1368.11125pt x 132.495pt>
-File: figures/one.png Graphic file (type png)
- <use figures/one.png>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/scilab.png, id=36, 1003.75pt x 609.27625pt>
-File: figures/scilab.png Graphic file (type png)
- <use figures/scilab.png>
-[10 <./figures/oscad1.png (PNG copy)>]
-<figures/install0.png, id=41, 1371.1225pt x 770.88pt>
+[8 <./figures/oscad1.png (PNG copy)>]
+<figures/extract.png, id=34, 678.535pt x 578.16pt>
+File: figures/extract.png Graphic file (type png)
+ <use figures/extract.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figures/install0.png, id=35, 1371.1225pt x 770.88pt>
 File: figures/install0.png Graphic file (type png)
 
 <use figures/install0.png>
-Underfull \hbox (badness 10000) in paragraph at lines 69--85
-
- []
-
-[11 <./figures/one.png (PNG copy)> <./figures/scilab.png (PNG copy)>]
-<figures/installer1.png, id=45, 1371.1225pt x 770.88pt>
-File: figures/installer1.png Graphic file (type png)
-
-<use figures/installer1.png>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[12 <./figures/install0.png (PNG copy)>] [13 <./figures/installer1.png (PNG cop
-y)>] <figures/install3.png, id=53, 1371.1225pt x 770.88pt>
-File: figures/install3.png Graphic file (type png)
+[9 <./figures/scilab.png (PNG copy)>] [10 <./figures/extract.png (PNG copy)> <.
+/figures/install0.png (PNG copy)>]
+<figures/installer1.png, id=44, 1371.1225pt x 770.88pt>
+File: figures/installer1.png Graphic file (type png)
 
-<use figures/install3.png>
-<figures/install4.png, id=54, 1371.1225pt x 145.54375pt>
-File: figures/install4.png Graphic file (type png)
-
-<use figures/install4.png>
-<figures/install5.png, id=55, 1368.11125pt x 212.795pt>
-File: figures/install5.png Graphic file (type png)
-
-<use figures/install5.png>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<figures/install6.png, id=56, 1353.055pt x 409.53pt>
-File: figures/install6.png Graphic file (type png)
-
-<use figures/install6.png> [14 <./figures/install3.png (PNG copy)> <./figures/i
-nstall4.png (PNG copy)>] [15 <./figures/install5.png (PNG copy)> <./figures/ins
-tall6.png (PNG copy)>] <figures/install7.png, id=63, 1371.1225pt x 770.88pt>
-File: figures/install7.png Graphic file (type png)
-
-<use figures/install7.png>
-Underfull \hbox (badness 10000) in paragraph at lines 149--164
+<use figures/installer1.png>
+Underfull \hbox (badness 10000) in paragraph at lines 117--124
 
  []
 
-<figures/install9.png, id=64, 1371.1225pt x 770.88pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 117--124
+
+ []
+
+[11 <./figures/installer1.png (PNG copy)>]
+<figures/install3.png, id=48, 1371.1225pt x 770.88pt>
+File: figures/install3.png Graphic file (type png)
+
+<use figures/install3.png>
+<figures/install4.png, id=49, 1371.1225pt x 145.54375pt>
+File: figures/install4.png Graphic file (type png)
+
+<use figures/install4.png>
+Underfull \hbox (badness 10000) in paragraph at lines 134--150
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 134--150
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 134--150
+
+ []
+
+[12 <./figures/install3.png (PNG copy)> <./figures/install4.png (PNG copy)>]
+<figures/install5.png, id=53, 1368.11125pt x 212.795pt>
+File: figures/install5.png Graphic file (type png)
+
+<use figures/install5.png>
+Underfull \hbox (badness 10000) in paragraph at lines 151--166
+
+ []
+
+
+Overfull \hbox (83.41733pt too wide) in paragraph at lines 151--166
+[][]
+ []
+
+
+Overfull \hbox (65.81303pt too wide) in paragraph at lines 151--166
+[]
+ []
+
+<figures/install6.png, id=54, 1353.055pt x 409.53pt>
+File: figures/install6.png Graphic file (type png)
+
+<use figures/install6.png> [13 <./figures/install5.png (PNG copy)> <./figures/i
+nstall6.png (PNG copy)>] <figures/install7.png, id=59, 1371.1225pt x 770.88pt>
+File: figures/install7.png Graphic file (type png)
+
+<use figures/install7.png>
+Underfull \hbox (badness 10000) in paragraph at lines 179--194
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--194
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--194
+
+ []
+
+
+Overfull \hbox (134.60313pt too wide) in paragraph at lines 179--194
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--208
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--208
+
+ []
+
+<figures/install9.png, id=60, 1371.1225pt x 770.88pt>
 File: figures/install9.png Graphic file (type png)
 
 <use figures/install9.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/screenshot1.png, id=65, 1371.1225pt x 770.88pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 220--221
+
+ []
+
+[14 <./figures/install7.png (PNG copy)>]
+<figures/screenshot1.png, id=64, 1136.245pt x 554.07pt>
 File: figures/screenshot1.png Graphic file (type png)
 
-<use figures/screenshot1.png> [16 <./figures/install7.png (PNG copy)>]
+<use figures/screenshot1.png> [15 <./figures/install9.png (PNG copy)> <./figure
+s/screenshot1.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 231--232
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+ []
 
-[17 <./figures/install9.png (PNG copy)>]
-<figures/run.png, id=72, 861.2175pt x 203.76125pt>
+<figures/run.png, id=68, 519.44063pt x 150.5625pt>
 File: figures/run.png Graphic file (type png)
  <use figures/run.png>
-<figures/oscadicon.png, id=73, 208.78pt x 250.9375pt>
+<figures/oscadicon.png, id=69, 208.78pt x 250.9375pt>
 File: figures/oscadicon.png Graphic file (type png)
 
-<use figures/oscadicon.png>
+<use figures/oscadicon.png> [16 <./figures/run.png (PNG copy)> <./figures/oscad
+icon.png (PNG copy)>] <figures/RC.png, id=73, 418.56375pt x 273.02pt>
+File: figures/RC.png Graphic file (type png)
+
+<use figures/RC.png> <figures/RC1.png, id=74, 304.13625pt x 129.48375pt>
+File: figures/RC1.png Graphic file (type png)
+
+<use figures/RC1.png> <figures/tools.png, id=75, 100.87688pt x 487.8225pt>
+File: figures/tools.png Graphic file (type png)
+
+<use figures/tools.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[18 <./figures/screenshot1.png (PNG copy)> <./figures/run.png (PNG copy)>])
-(./texfiles/chap3.tex [19 <./figures/oscadicon.png (PNG copy)>]
-Chapter 3.
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-[20
+<figures/error.png, id=76, 450.68375pt x 278.03876pt>
+File: figures/error.png Graphic file (type png)
+ <use figures/error.png>
 
-] [21] [22] [23] [24]
-<figures/oscadBD-eps-converted-to.pdf, id=96, 429.605pt x 164.615pt>
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[17 <./figures/RC.png (PNG copy)> <./figures/RC1.png (PNG copy)>]
+<figures/schematic.png, id=80, 501.875pt x 381.425pt>
+File: figures/schematic.png Graphic file (type png)
+
+<use figures/schematic.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<figures/tools2.png, id=81, 103.88812pt x 487.8225pt>
+File: figures/tools2.png Graphic file (type png)
+ <use figures/tools2.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<figures/output.png, id=82, 1371.1225pt x 770.88pt>
+File: figures/output.png Graphic file (type png)
+ <use figures/output.png>
+Overfull \hbox (68.99895pt too wide) in paragraph at lines 327--328
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (./texfiles/chap3.tex [18 <./figures/tools.png (PNG copy)> <./figures/error.p
+ng (PNG copy)>] [19 <./figures/schematic.png (PNG copy)> <./figures/tools2.png 
+(PNG copy)>] [20 <./figures/output.png (PNG copy)>]
+Chapter 3.
+[21
+
+] [22] [23] [24]
+<figures/oscadBD-eps-converted-to.pdf, id=105, 429.605pt x 164.615pt>
 File: figures/oscadBD-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/oscadBD-eps-converted-to.pdf> [25 <./figures/oscadBD-eps-converted
--to.pdf>] [26]) (./texfiles/chap4.tex [27]
+-to.pdf>]
+Overfull \hbox (9.1674pt too wide) in paragraph at lines 165--166
+[]\OT1/cmr/m/n/10 Xspice (code mod-el-ing sup-port and sim-u-la-tion of dig-i-t
+al com-po-nents through
+ []
+
+) (./texfiles/chap4.tex [26]
 Chapter 4.
-<figures/main-window.png, id=113, 206.7725pt x 251.94125pt>
+<figures/main-window.png, id=119, 206.7725pt x 251.94125pt>
 File: figures/main-window.png Graphic file (type png)
 
-<use figures/main-window.png>
+<use figures/main-window.png> [27
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<figures/open-project-directory.png, id=115, 419.5675pt x 276.03125pt>
+ <./figures/main-window.png>]
+<figures/open-project-directory.png, id=125, 419.5675pt x 276.03125pt>
 File: figures/open-project-directory.png Graphic file (type png)
 
 <use figures/open-project-directory.png>
+<figures/project-name.png, id=126, 303.1325pt x 129.48375pt>
+File: figures/project-name.png Graphic file (type png)
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+<use figures/project-name.png>
+<figures/tool-window.png, id=127, 104.39pt x 490.83376pt>
+File: figures/tool-window.png Graphic file (type png)
 
-) (./texfiles/chap5.tex [28
+<use figures/tool-window.png> [28 <./figures/open-project-directory.png> <./fig
+ures/project-name.png>] [29 <./figures/tool-window.png>]
+<figures/schematic-editor-newprj.png, id=137, 557.08125pt x 524.96124pt>
+File: figures/schematic-editor-newprj.png Graphic file (type png)
 
-] [29 <./figures/main-window.png> <./figures/open-project-directory.png>]
+<use figures/schematic-editor-newprj.png>
+<figures/schematic-editor-existingprj.png, id=138, 580.1675pt x 447.6725pt>
+File: figures/schematic-editor-existingprj.png Graphic file (type png)
+
+<use figures/schematic-editor-existingprj.png>
+<figures/eeschema.png, id=139, 584.1825pt x 486.81876pt>
+File: figures/eeschema.png Graphic file (type png)
+
+<use figures/eeschema.png> [30 <./figures/schematic-editor-newprj.png (PNG copy
+)>] [31 <./figures/schematic-editor-existingprj.png (PNG copy)> <./figures/eesc
+hema.png (PNG copy)>]
+<figures/analysis-inserter.png, id=147, 553.06625pt x 403.5075pt>
+File: figures/analysis-inserter.png Graphic file (type png)
+
+<use figures/analysis-inserter.png>
+<figures/netlist-converter.png, id=148, 544.0325pt x 261.97874pt>
+File: figures/netlist-converter.png Graphic file (type png)
+
+<use figures/netlist-converter.png> [32 <./figures/analysis-inserter.png (PNG c
+opy)>] <figures/ngspice-simulation.png, id=152, 851.18pt x 589.20125pt>
+File: figures/ngspice-simulation.png Graphic file (type png)
+
+<use figures/ngspice-simulation.png>
+<figures/CvPCB-window.png, id=153, 582.175pt x 327.2225pt>
+File: figures/CvPCB-window.png Graphic file (type png)
+
+<use figures/CvPCB-window.png> [33 <./figures/netlist-converter.png (PNG copy)>
+ <./figures/ngspice-simulation.png (PNG copy)>]
+<figures/footprint-c1.png, id=157, 599.23875pt x 425.59pt>
+File: figures/footprint-c1.png Graphic file (type png)
+
+<use figures/footprint-c1.png>
+<figures/pcb-rc.png, id=158, 677.53125pt x 534.99875pt>
+File: figures/pcb-rc.png Graphic file (type png)
+
+<use figures/pcb-rc.png> [34 <./figures/CvPCB-window.png (PNG copy)>] [35 <./fi
+gures/footprint-c1.png (PNG copy)> <./figures/pcb-rc.png (PNG copy)>]
+<figures/scilab-mode.png, id=165, 292.09125pt x 170.6375pt>
+File: figures/scilab-mode.png Graphic file (type png)
+
+<use figures/scilab-mode.png>
+<figures/scilabRC.png, id=166, 1382.16376pt x 900.36375pt>
+File: figures/scilabRC.png Graphic file (type png)
+
+<use figures/scilabRC.png>
+<figures/scilabFig.png, id=167, 616.3025pt x 588.1975pt>
+File: figures/scilabFig.png Graphic file (type png)
+
+<use figures/scilabFig.png> [36 <./figures/scilab-mode.png>] [37 <./figures/sci
+labRC.png (PNG copy)> <./figures/scilabFig.png (PNG copy)>]
+<figures/model-builder.png, id=176, 409.53pt x 345.29pt>
+File: figures/model-builder.png Graphic file (type png)
+
+<use figures/model-builder.png>
+<figures/model-builder-diode.png, id=177, 416.55624pt x 315.1775pt>
+File: figures/model-builder-diode.png Graphic file (type png)
+
+<use figures/model-builder-diode.png>
+<figures/diode-model.png, id=178, 995.72pt x 188.705pt>
+File: figures/diode-model.png Graphic file (type png)
+
+<use figures/diode-model.png> [38 <./figures/model-builder.png> <./figures/mode
+l-builder-diode.png> <./figures/diode-model.png>]
+<figures/subcircuit.png, id=185, 1301.86375pt x 711.65875pt>
+File: figures/subcircuit.png Graphic file (type png)
+
+<use figures/subcircuit.png>) (./texfiles/chap5.tex [39 <./figures/subcircuit.p
+ng (PNG copy)>]
 Chapter 5.
-<figures/eeschema1_corctd.png, id=124, 566.115pt x 534.49687pt>
+<figures/eeschema1_corctd.png, id=189, 566.115pt x 534.49687pt>
 File: figures/eeschema1_corctd.png Graphic file (type png)
 
-<use figures/eeschema1_corctd.png> [30
-
-] [31 <./figures/eeschema1_corctd.png (PNG copy)>] <figures/print.png, id=132, 
-409.53pt x 209.78375pt>
+<use figures/eeschema1_corctd.png>
+<figures/print.png, id=190, 409.53pt x 209.78375pt>
 File: figures/print.png Graphic file (type png)
+ <use figures/print.png>
+[40
 
-<use figures/print.png>
-<figures/eeschema2_mod.png, id=133, 560.0925pt x 183.68625pt>
+] [41 <./figures/eeschema1_corctd.png (PNG copy)> <./figures/print.png (PNG cop
+y)>] <figures/eeschema2_mod.png, id=197, 560.0925pt x 183.68625pt>
 File: figures/eeschema2_mod.png Graphic file (type png)
 
-<use figures/eeschema2_mod.png> [32 <./figures/print.png (PNG copy)>]
-<figures/eeschema3_mod.png, id=137, 271.0125pt x 459.21562pt>
+<use figures/eeschema2_mod.png> [42 <./figures/eeschema2_mod.png (PNG copy)>]
+<figures/eeschema3_mod.png, id=201, 271.0125pt x 459.21562pt>
 File: figures/eeschema3_mod.png Graphic file (type png)
 
-<use figures/eeschema3_mod.png> [33 <./figures/eeschema2_mod.png (PNG copy)>]
-[34 <./figures/eeschema3_mod.png (PNG copy)>]
-<figures/eeschema4_mod.png, id=144, 180.675pt x 159.59625pt>
+<use figures/eeschema3_mod.png> [43 <./figures/eeschema3_mod.png (PNG copy)>]
+<figures/eeschema4_mod.png, id=206, 180.675pt x 159.59625pt>
 File: figures/eeschema4_mod.png Graphic file (type png)
 
-<use figures/eeschema4_mod.png> [35] [36 <./figures/eeschema4_mod.png (PNG copy
-)>] [37] <figures/lib.png, id=156, 557.08125pt x 629.35126pt>
+<use figures/eeschema4_mod.png> [44 <./figures/eeschema4_mod.png (PNG copy)>]
+[45] <figures/lib.png, id=214, 557.08125pt x 629.35126pt>
 File: figures/lib.png Graphic file (type png)
 
-<use figures/lib.png> <figures/select.png, id=157, 841.1425pt x 659.46375pt>
+<use figures/lib.png> <figures/select.png, id=215, 841.1425pt x 659.46375pt>
 File: figures/select.png Graphic file (type png)
 
-<use figures/select.png> <figures/libbrowse.png, id=158, 622.325pt x 578.16pt>
+<use figures/select.png> <figures/libbrowse.png, id=216, 622.325pt x 578.16pt>
 File: figures/libbrowse.png Graphic file (type png)
 
-<use figures/libbrowse.png> [38] [39 <./figures/lib.png (PNG copy)>] [40 <./fig
-ures/select.png (PNG copy)>] [41 <./figures/libbrowse.png (PNG copy)>]
-<figures/measspice.png, id=171, 600.2425pt x 501.875pt>
+<use figures/libbrowse.png> [46]
+<figures/measspice.png, id=220, 600.2425pt x 501.875pt>
 File: figures/measspice.png Graphic file (type png)
 
 <use figures/measspice.png>
-<figures/powerlib.png, id=172, 621.32124pt x 583.17876pt>
+<figures/powerlib.png, id=221, 621.32124pt x 583.17876pt>
 File: figures/powerlib.png Graphic file (type png)
 
 <use figures/powerlib.png>
-<figures/conn.png, id=173, 625.33624pt x 581.17125pt>
+<figures/conn.png, id=222, 625.33624pt x 581.17125pt>
 File: figures/conn.png Graphic file (type png)
  <use figures/conn.png>
-[42 <./figures/measspice.png (PNG copy)>] [43 <./figures/powerlib.png (PNG copy
-)>]
-Overfull \hbox (16.85977pt too wide) in paragraph at lines 220--220
-[]\OT1/cmr/bx/n/17.28 Schematic cre-ation for Sim-u-la-tion and PCB
- []
-
-[44 <./figures/conn.png (PNG copy)>]
-<figures/schemRC.png, id=184, 465.74pt x 348.30125pt>
+[47 <./figures/lib.png (PNG copy)>] [48 <./figures/select.png (PNG copy)>]
+[49 <./figures/libbrowse.png (PNG copy)> <./figures/measspice.png (PNG copy)>]
+[50 <./figures/powerlib.png (PNG copy)> <./figures/conn.png (PNG copy)>]
+<figures/schemRC.png, id=236, 465.74pt x 348.30125pt>
 File: figures/schemRC.png Graphic file (type png)
 
-<use figures/schemRC.png> <figures/comp.png, id=185, 359.3425pt x 227.85126pt>
+<use figures/schemRC.png> <figures/comp.png, id=237, 359.3425pt x 227.85126pt>
 File: figures/comp.png Graphic file (type png)
 
-<use figures/comp.png> [45 <./figures/schemRC.png (PNG copy)>]
-<figures/afterplace.png, id=189, 541.02126pt x 445.665pt>
+<use figures/comp.png> [51 <./figures/schemRC.png (PNG copy)>]
+<figures/afterplace.png, id=241, 541.02126pt x 445.665pt>
 File: figures/afterplace.png Graphic file (type png)
 
 <use figures/afterplace.png>
-<figures/rotate.png, id=190, 301.125pt x 98.3675pt>
+<figures/rotate.png, id=242, 301.125pt x 98.3675pt>
 File: figures/rotate.png Graphic file (type png)
  <use figures/rotate.png>
-<figures/wire1.png, id=191, 484.81125pt x 460.72125pt>
+<figures/wire1.png, id=243, 484.81125pt x 460.72125pt>
 File: figures/wire1.png Graphic file (type png)
  <use figures/wire1.png>
-<figures/wirefin.png, id=192, 477.785pt x 450.68375pt>
+<figures/wirefin.png, id=244, 477.785pt x 450.68375pt>
 File: figures/wirefin.png Graphic file (type png)
 
-<use figures/wirefin.png> [46 <./figures/comp.png (PNG copy)>] [47 <./figures/a
-fterplace.png (PNG copy)> <./figures/rotate.png (PNG copy)>]
-<figures/field.png, id=199, 333.245pt x 151.56625pt>
+<use figures/wirefin.png> [52 <./figures/comp.png (PNG copy)> <./figures/afterp
+lace.png (PNG copy)>] <figures/field.png, id=248, 333.245pt x 151.56625pt>
 File: figures/field.png Graphic file (type png)
- <use figures/field.png>
-[48 <./figures/wire1.png (PNG copy)>] [49 <./figures/wirefin.png (PNG copy)> <.
-/figures/field.png (PNG copy)>]
-<figures/anno.png, id=208, 542.025pt x 448.67625pt>
+
+<use figures/field.png> [53 <./figures/rotate.png (PNG copy)> <./figures/wire1.
+png (PNG copy)>] <figures/anno.png, id=252, 542.025pt x 448.67625pt>
 File: figures/anno.png Graphic file (type png)
- <use figures/anno.png>
-<figures/erc1.png, id=209, 518.93875pt x 47.17625pt>
+
+<use figures/anno.png> <figures/erc1.png, id=253, 518.93875pt x 47.17625pt>
 File: figures/erc1.png Graphic file (type png)
- <use figures/erc1.png>
-<figures/ercgnd.png, id=210, 58.2175pt x 68.255pt>
+
+<use figures/erc1.png> <figures/ercgnd.png, id=254, 58.2175pt x 68.255pt>
 File: figures/ercgnd.png Graphic file (type png)
- <use figures/ercgnd.png>
-<figures/schemfin.png, id=211, 497.86pt x 472.76625pt>
+
+<use figures/ercgnd.png>
+<figures/schemfin.png, id=255, 497.86pt x 472.76625pt>
 File: figures/schemfin.png Graphic file (type png)
 
-<use figures/schemfin.png> [50 <./figures/anno.png (PNG copy)>]
-<figures/net.png, id=215, 523.9575pt x 322.20375pt>
+<use figures/schemfin.png> [54 <./figures/wirefin.png (PNG copy)> <./figures/fi
+eld.png (PNG copy)>] <figures/net.png, id=259, 523.9575pt x 322.20375pt>
 File: figures/net.png Graphic file (type png)
- <use figures/net.png>)
-(./texfiles/chap6.tex [51 <./figures/erc1.png (PNG copy)> <./figures/ercgnd.png
- (PNG copy)>] [52 <./figures/schemfin.png (PNG copy)> <./figures/net.png (PNG c
-opy)>]
-Chapter 6.
-[53
 
-] [54] <figures/1.png, id=228, 456.70625pt x 439.6425pt>
+<use figures/net.png> [55 <./figures/anno.png (PNG copy)> <./figures/erc1.png (
+PNG copy)> <./figures/ercgnd.png (PNG copy)>]) (./texfiles/chap6.tex [56 <./fig
+ures/schemfin.png (PNG copy)> <./figures/net.png (PNG copy)>]
+Chapter 6.
+[57
+
+] [58] <figures/1.png, id=273, 456.70625pt x 439.6425pt>
 File: figures/1.png Graphic file (type png)
 
-<use figures/1.png>
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
- <figures/2.png, id=229, 460.72125pt x 443.6575pt>
+<use figures/1.png> <figures/2.png, id=274, 460.72125pt x 443.6575pt>
 File: figures/2.png Graphic file (type png)
 
-<use figures/2.png>
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
- <figures/3.png, id=230, 460.72125pt x 442.65375pt>
+<use figures/2.png> [59 <./figures/1.png (PNG copy)>]
+<figures/3.png, id=278, 460.72125pt x 442.65375pt>
 File: figures/3.png Graphic file (type png)
-
-<use figures/3.png> [55] [56 <./figures/1.png (PNG copy)>] [57 <./figures/2.png
- (PNG copy)>] [58 <./figures/3.png (PNG copy)>]
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-
-<figures/4.png, id=244, 457.71pt x 516.93124pt>
+ <use figures/3.png>
+<figures/4.png, id=279, 402.50375pt x 560.0925pt>
 File: figures/4.png Graphic file (type png)
- <use figures/4.png>
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-
-<figures/5.png, id=245, 461.725pt x 517.935pt>
+ <use figures/4.png> [60 <./figures/2.png (PNG copy)> <./figures/3.png (PNG cop
+y)>]
+<figures/5.png, id=283, 406.51875pt x 550.055pt>
 File: figures/5.png Graphic file (type png)
  <use figures/5.png>
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+ [61 <./figures/4.png (PNG copy)>]
 
-<figures/6.png, id=246, 459.7175pt x 517.935pt>
+LaTeX Warning: Command \textless invalid in math mode on input line 114.
+
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 114.
+
+(/usr/share/texmf-texlive/tex/latex/base/omlcmr.fd
+File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 114.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 114.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 114.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 114.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 114.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 114.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 114.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 114.
+
+<figures/6.png, id=288, 440.64626pt x 555.07375pt>
 File: figures/6.png Graphic file (type png)
  <use figures/6.png>
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-
-<figures/7.png, id=247, 460.72125pt x 516.93124pt>
+<figures/7.png, id=289, 438.63875pt x 553.06625pt>
 File: figures/7.png Graphic file (type png)
  <use figures/7.png>
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
- [59]
-[60 <./figures/4.png (PNG copy)>] [61 <./figures/5.png (PNG copy)>] [62 <./figu
-res/6.png (PNG copy)>] [63 <./figures/7.png (PNG copy)>]
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
+<figures/8-file.png, id=290, 358.33875pt x 486.81876pt>
+File: figures/8-file.png Graphic file (type png)
 
-<figures/8.png, id=264, 592.2125pt x 466.74374pt>
+<use figures/8-file.png> [62 <./figures/5.png (PNG copy)>] [63 <./figures/6.png
+ (PNG copy)> <./figures/7.png (PNG copy)>]
+<figures/8-save.png, id=297, 610.28pt x 533.995pt>
+File: figures/8-save.png Graphic file (type png)
+ <use figures/8-save.png>
+[64 <./figures/8-file.png (PNG copy)> <./figures/8-save.png (PNG copy)>]
+<figures/8.png, id=301, 592.2125pt x 466.74374pt>
 File: figures/8.png Graphic file (type png)
  <use figures/8.png>
-<figures/9.png, id=265, 523.9575pt x 452.69125pt>
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+
+<figures/9.png, id=302, 523.9575pt x 452.69125pt>
 File: figures/9.png Graphic file (type png)
  <use figures/9.png>
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
- [64]
-[65 <./figures/8.png (PNG copy)>] [66 <./figures/9.png (PNG copy)>]
-<figures/10.png, id=275, 519.9425pt x 441.65pt>
+<figures/10.png, id=303, 519.9425pt x 441.65pt>
 File: figures/10.png Graphic file (type png)
- <use figures/10.png>
-<figures/11.png, id=276, 1108.14pt x 565.11125pt>
+ <use figures/10.png> [65 <./figures/8.png (PNG copy)>] [66 <./figures/9.png (P
+NG copy)> <./figures/10.png (PNG copy)>]
+Overfull \hbox (21.96243pt too wide) in paragraph at lines 184--184
+[]\OT1/cmr/bx/n/12 Insert Digital-to-Analog (D-to-A) and Analog-to-Digital
+ []
+
+<figures/11.png, id=310, 1108.14pt x 565.11125pt>
 File: figures/11.png Graphic file (type png)
- <use figures/11.png> [67 <./figures/10.png (PNG copy)>]
-Overfull \hbox (13.01274pt too wide) in paragraph at lines 146--146
-\OT1/cmr/bx/n/14.4 to-Digital (A-to-D) con-verter at ap-pro-pri-ate places 
- []
-
-[68 <./figures/11.png (PNG copy)>]
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ô in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-
-Overfull \hbox (16.00691pt too wide) in paragraph at lines 161--162
-[]\OT1/cmr/m/n/12 Ngspice sup-ports mixed-signal sim-u-la-tion through the in-t
-e-gra-tion of XSPICE
- []
-
-[69] <figures/12.png, id=287, 405.515pt x 451.6875pt>
+ <use figures/11.png> [67]
+<figures/12.png, id=315, 405.515pt x 451.6875pt>
 File: figures/12.png Graphic file (type png)
  <use figures/12.png>
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-
-
-LaTeX Warning: Reference `13' on page 70 undefined on input line 175.
-
-<figures/13.png, id=288, 685.56125pt x 433.62pt>
+<figures/13.png, id=316, 685.56125pt x 433.62pt>
 File: figures/13.png Graphic file (type png)
  <use figures/13.png>
-<figures/14.png, id=289, 1110.1475pt x 620.3175pt>
+<figures/14.png, id=317, 1110.1475pt x 620.3175pt>
 File: figures/14.png Graphic file (type png)
  <use figures/14.png>
-<figures/15.png, id=290, 408.52625pt x 545.03625pt>
-File: figures/15.png Graphic file (type png)
- <use figures/15.png>
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-
-<figures/16.png, id=291, 569.12625pt x 560.0925pt>
+[68 <./figures/11.png (PNG copy)>]
+File: figures/5.png Graphic file (type png)
+ <use figures/5.png>
+<figures/16.png, id=321, 569.12625pt x 560.0925pt>
 File: figures/16.png Graphic file (type png)
  <use figures/16.png>
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
+<figures/17.png, id=322, 1111.15125pt x 615.29875pt>
+File: figures/17.png Graphic file (type png)
+ <use figures/17.png>
+[69 <./figures/12.png (PNG copy)> <./figures/13.png (PNG copy)>] [70 <./figures
+/14.png (PNG copy)>] <figures/18.png, id=329, 405.515pt x 428.60126pt>
+File: figures/18.png Graphic file (type png)
 
-[70] [71 <./figures/12.png (PNG copy)>] [72 <./figures/13.png (PNG copy)> <./fi
-gures/14.png (PNG copy)>] [73 <./figures/15.png (PNG copy)>] [74 <./figures/16.
-png (PNG copy)>]
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-) (./texfiles/chap8.tex [75]
+<use figures/18.png> <figures/19.png, id=330, 581.17125pt x 563.10374pt>
+File: figures/19.png Graphic file (type png)
+
+<use figures/19.png> <figures/20.png, id=331, 1111.15125pt x 567.11874pt>
+File: figures/20.png Graphic file (type png)
+
+<use figures/20.png>) (./texfiles/chap7.tex [71 <./figures/16.png (PNG copy)> <
+./figures/17.png (PNG copy)>] [72 <./figures/18.png (PNG copy)> <./figures/19.p
+ng (PNG copy)>] [73 <./figures/20.png (PNG copy)>]
 Chapter 7.
-<figures/B-Rectifier-schematic.png, id=311, 1302.8675pt x 712.6625pt>
+<figures/pcbschfin.png, id=342, 492.84125pt x 352.31625pt>
+File: figures/pcbschfin.png Graphic file (type png)
+
+<use figures/pcbschfin.png> [74
+
+]
+<figures/netlistpcb.png, id=346, 460.72125pt x 307.1475pt>
+File: figures/netlistpcb.png Graphic file (type png)
+
+<use figures/netlistpcb.png> [75 <./figures/pcbschfin.png (PNG copy)> <./figure
+s/netlistpcb.png (PNG copy)>]
+<figures/fe.png, id=350, 558.58687pt x 480.29437pt>
+File: figures/fe.png Graphic file (type png)
+ <use figures/fe.png>
+<figures/tb_fe.png, id=351, 423.08063pt x 171.64125pt>
+File: figures/tb_fe.png Graphic file (type png)
+ <use figures/tb_fe.png>
+[76 <./figures/fe.png (PNG copy)>]
+<figures/sm.png, id=355, 539.01375pt x 383.18156pt>
+File: figures/sm.png Graphic file (type png)
+ <use figures/sm.png>
+<figures/3d.png, id=356, 540.51938pt x 388.45125pt>
+File: figures/3d.png Graphic file (type png)
+ <use figures/3d.png>
+<figures/3dv.png, id=357, 602.25pt x 428.60126pt>
+File: figures/3dv.png Graphic file (type png)
+ <use figures/3dv.png>
+<figures/map.png, id=358, 605.26125pt x 427.5975pt>
+File: figures/map.png Graphic file (type png)
+ <use figures/map.png>
+[77 <./figures/tb_fe.png (PNG copy)>]
+<figures/pcbnew.png, id=362, 551.05875pt x 570.63188pt>
+File: figures/pcbnew.png Graphic file (type png)
+
+<use figures/pcbnew.png>
+<figures/toptble.png, id=363, 572.1375pt x 153.57375pt>
+File: figures/toptble.png Graphic file (type png)
+
+<use figures/toptble.png> [78 <./figures/sm.png (PNG copy)> <./figures/3d.png (
+PNG copy)>] [79 <./figures/3dv.png (PNG copy)> <./figures/map.png (PNG copy)>]
+[80 <./figures/pcbnew.png (PNG copy)> <./figures/toptble.png (PNG copy)>]
+<figures/brnet.png, id=374, 545.03625pt x 298.11375pt>
+File: figures/brnet.png Graphic file (type png)
+ <use figures/brnet.png>
+<figures/netlisttop.png, id=375, 389.455pt x 333.245pt>
+File: figures/netlisttop.png Graphic file (type png)
+
+<use figures/netlisttop.png>
+<figures/zoom.png, id=376, 607.26875pt x 439.6425pt>
+File: figures/zoom.png Graphic file (type png)
+ <use figures/zoom.png>
+<figures/movep.png, id=377, 539.01375pt x 453.19313pt>
+File: figures/movep.png Graphic file (type png)
+ <use figures/movep.png>
+<figures/confirm.png, id=378, 199.74625pt x 155.58125pt>
+File: figures/confirm.png Graphic file (type png)
+
+<use figures/confirm.png>
+<figures/curplace.png, id=379, 327.2225pt x 208.78pt>
+File: figures/curplace.png Graphic file (type png)
+
+<use figures/curplace.png>
+<figures/fplace.png, id=380, 293.095pt x 161.60374pt>
+File: figures/fplace.png Graphic file (type png)
+ <use figures/fplace.png>
+<figures/drules.png, id=381, 540.51938pt x 469.755pt>
+File: figures/drules.png Graphic file (type png)
+ <use figures/drules.png>
+<figures/druleedit.png, id=382, 543.53062pt x 551.05875pt>
+File: figures/druleedit.png Graphic file (type png)
+
+<use figures/druleedit.png> [81]
+<figures/layer.png, id=386, 539.76656pt x 453.19313pt>
+File: figures/layer.png Graphic file (type png)
+ <use figures/layer.png>
+<figures/track1.png, id=387, 298.11375pt x 166.6225pt>
+File: figures/track1.png Graphic file (type png)
+
+<use figures/track1.png> [82 <./figures/brnet.png (PNG copy)> <./figures/netlis
+ttop.png (PNG copy)>] [83 <./figures/zoom.png (PNG copy)> <./figures/movep.png 
+(PNG copy)>] <figures/track2.png, id=394, 291.0875pt x 157.58875pt>
+File: figures/track2.png Graphic file (type png)
+
+<use figures/track2.png>
+<figures/track3.png, id=395, 296.10625pt x 158.5925pt>
+File: figures/track3.png Graphic file (type png)
+
+<use figures/track3.png>
+<figures/pcbedges.png, id=396, 542.77782pt x 454.69875pt>
+File: figures/pcbedges.png Graphic file (type png)
+
+<use figures/pcbedges.png>
+<figures/pcbed.png, id=397, 364.36125pt x 236.885pt>
+File: figures/pcbed.png Graphic file (type png)
+ <use figures/pcbed.png>
+<figures/drc.png, id=398, 542.77782pt x 329.73187pt>
+File: figures/drc.png Graphic file (type png)
+ <use figures/drc.png>
+[84 <./figures/confirm.png (PNG copy)> <./figures/curplace.png (PNG copy)> <./f
+igures/fplace.png (PNG copy)>] [85 <./figures/drules.png (PNG copy)> <./figures
+/druleedit.png (PNG copy)>] [86 <./figures/layer.png (PNG copy)> <./figures/tra
+ck1.png (PNG copy)> <./figures/track2.png (PNG copy)> <./figures/track3.png (PN
+G copy)>] <figures/plot.png, id=409, 734.745pt x 635.37375pt>
+File: figures/plot.png Graphic file (type png)
+
+<use figures/plot.png> <figures/plot2.png, id=410, 545.03625pt x 516.42938pt>
+File: figures/plot2.png Graphic file (type png)
+
+<use figures/plot2.png>) (./texfiles/chap8.tex [87 <./figures/pcbedges.png (PNG
+ copy)> <./figures/pcbed.png (PNG copy)>] [88 <./figures/drc.png (PNG copy)> <.
+/figures/plot.png (PNG copy)>] [89 <./figures/plot2.png (PNG copy)>]
+Chapter 8.
+<figures/B-Rectifier-schematic.png, id=420, 1302.8675pt x 712.6625pt>
 File: figures/B-Rectifier-schematic.png Graphic file (type png)
 
 <use figures/B-Rectifier-schematic.png>
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+ [90
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+]
+<figures/cancel-model-b.png, id=424, 178.6675pt x 272.01625pt>
+File: figures/cancel-model-b.png Graphic file (type png)
 
-<figures/model-parameters.png, id=312, 1036.87375pt x 273.02pt>
+<use figures/cancel-model-b.png>
+<figures/new-model-0.png, id=425, 472.76625pt x 432.61626pt>
+File: figures/new-model-0.png Graphic file (type png)
+
+<use figures/new-model-0.png>
+<figures/select-mod-type.png, id=426, 402.50375pt x 351.3125pt>
+File: figures/select-mod-type.png Graphic file (type png)
+
+<use figures/select-mod-type.png>
+<figures/model-parameters.png, id=427, 1016.79875pt x 215.80624pt>
 File: figures/model-parameters.png Graphic file (type png)
 
 <use figures/model-parameters.png>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<figures/model-build-export.png, id=313, 1371.1225pt x 770.88pt>
+<figures/model-build-export.png, id=428, 473.77pt x 331.2375pt>
 File: figures/model-build-export.png Graphic file (type png)
 
-<use figures/model-build-export.png> [76
+<use figures/model-build-export.png>
+<figures/import-0.png, id=429, 405.515pt x 348.30125pt>
+File: figures/import-0.png Graphic file (type png)
 
-]
+<use figures/import-0.png>
+<figures/import-mod.png, id=430, 178.6675pt x 272.01625pt>
+File: figures/import-mod.png Graphic file (type png)
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+<use figures/import-mod.png> [91 <./figures/B-Rectifier-schematic.png (PNG copy
+)> <./figures/cancel-model-b.png>] [92 <./figures/new-model-0.png> <./figures/s
+elect-mod-type.png>]
+<figures/555-schematic.png, id=441, 790.955pt x 607.26875pt>
+File: figures/555-schematic.png Graphic file (type png)
 
-<figures/voltage-divider.png, id=317, 1284.8pt x 418.56375pt>
-File: figures/voltage-divider.png Graphic file (type png)
+<use figures/555-schematic.png>
+<figures/555-field-ref.png, id=442, 790.955pt x 607.26875pt>
+File: figures/555-field-ref.png Graphic file (type png)
 
-<use figures/voltage-divider.png>
+<use figures/555-field-ref.png>
+<figures/555-edit-field.png, id=443, 790.955pt x 607.26875pt>
+File: figures/555-edit-field.png Graphic file (type png)
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+<use figures/555-edit-field.png>
+<figures/555-ref-change.png, id=444, 784.9325pt x 602.25pt>
+File: figures/555-ref-change.png Graphic file (type png)
 
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-[77 <./figures/B-Rectifier-schematic.png (PNG copy)>]
-<figures/select-model.png, id=321, 672.5125pt x 475.7775pt>
-File: figures/select-model.png Graphic file (type png)
+<use figures/555-ref-change.png>
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
 
-<use figures/select-model.png>
+<figures/select-subckt.png, id=445, 178.6675pt x 272.01625pt>
+File: figures/select-subckt.png Graphic file (type png)
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<figures/subcircuit.png, id=322, 1301.86375pt x 711.65875pt>
+<use figures/select-subckt.png> [93 <./figures/model-parameters.png> <./figures
+/model-build-export.png>]
 File: figures/subcircuit.png Graphic file (type png)
-
-<use figures/subcircuit.png>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-<figures/subcircuit-parameters.png, id=323, 924.45375pt x 465.74pt>
+ <use figures/subcircuit.png>
+<figures/subcircuit-parameters.png, id=451, 924.45375pt x 465.74pt>
 File: figures/subcircuit-parameters.png Graphic file (type png)
 
 <use figures/subcircuit-parameters.png>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-<figures/netlist-generation.png, id=324, 920.43875pt x 467.7475pt>
+<figures/netlist-generation.png, id=452, 920.43875pt x 467.7475pt>
 File: figures/netlist-generation.png Graphic file (type png)
 
-<use figures/netlist-generation.png>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-<figures/subcircuit-created.png, id=325, 602.25pt x 454.69875pt>
+<use figures/netlist-generation.png> [94 <./figures/import-0.png> <./figures/im
+port-mod.png>]
+<figures/subcircuit-created.png, id=458, 602.25pt x 454.69875pt>
 File: figures/subcircuit-created.png Graphic file (type png)
 
 <use figures/subcircuit-created.png>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[78 <./figures/model-parameters.png (PNG copy)>]
-<figures/export-subcircuit.png, id=329, 1371.1225pt x 770.88pt>
+<figures/export-subcircuit.png, id=459, 359.3425pt x 232.87pt>
 File: figures/export-subcircuit.png Graphic file (type png)
 
 <use figures/export-subcircuit.png>
+<figures/import-subckt.png, id=460, 426.59375pt x 250.9375pt>
+File: figures/import-subckt.png Graphic file (type png)
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) (./texfiles/chap9.tex [79 <./figures/model-build-export.png (PNG copy)>]
-[80 <./figures/voltage-divider.png (PNG copy)> <./figures/select-model.png (PNG
- copy)>] [81 <./figures/subcircuit.png (PNG copy)> <./figures/subcircuit-parame
-ters.png (PNG copy)>] [82 <./figures/netlist-generation.png (PNG copy)>]
-[83 <./figures/subcircuit-created.png (PNG copy)>] [84 <./figures/export-subcir
-cuit.png (PNG copy)>]
-Chapter 8.
+<use figures/import-subckt.png>) (./texfiles/chap9.tex [95 <./figures/555-schem
+atic.png>] [96 <./figures/555-field-ref.png>] [97 <./figures/555-edit-field.png
+>] [98 <./figures/555-ref-change.png (PNG copy)> <./figures/select-subckt.png>]
+[99 <./figures/subcircuit-parameters.png (PNG copy)>] [100 <./figures/netlist-g
+eneration.png (PNG copy)> <./figures/subcircuit-created.png (PNG copy)> <./figu
+res/export-subcircuit.png>] [101 <./figures/import-subckt.png>]
+Chapter 9.
 
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7--17
+Underfull \hbox (badness 10000) in paragraph at lines 9--17
 
  []
 
-[85
-
-] <figures/bridge-rectifier-circuit.png, id=353, 1048.91875pt x 696.6025pt>
+<figures/bridge-rectifier-circuit.png, id=489, 1048.91875pt x 696.6025pt>
 File: figures/bridge-rectifier-circuit.png Graphic file (type png)
 
 <use figures/bridge-rectifier-circuit.png>
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ô in font cmr12!
 
-Underfull \hbox (badness 10000) in paragraph at lines 26--27
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
+
+ []
+
+[102
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 40--42
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--31
+Underfull \hbox (badness 10000) in paragraph at lines 47--49
 
  []
 
-[86 <./figures/bridge-rectifier-circuit.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 32--33
-
- []
-
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no à in font cmr12!
-Missing character: There is no í in font cmr12!
-
-Underfull \hbox (badness 10000) in paragraph at lines 35--38
-
- []
-
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no à in font cmr12!
-Missing character: There is no í in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no à in font cmr12!
-Missing character: There is no í in font cmr12!
-
-Underfull \hbox (badness 10000) in paragraph at lines 45--48
-
- []
-
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no à in font cmr12!
-Missing character: There is no í in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no à in font cmr12!
-Missing character: There is no í in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no à in font cmr12!
-Missing character: There is no í in font cmr12!
-
-Underfull \hbox (badness 10000) in paragraph at lines 49--53
+[103 <./figures/bridge-rectifier-circuit.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 60--62
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--56
+Underfull \hbox (badness 10000) in paragraph at lines 64--65
 
  []
 
-[87]
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no à in font cmr12!
-Missing character: There is no í in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no à in font cmr12!
-Missing character: There is no í in font cmr12!
-
-Underfull \hbox (badness 10000) in paragraph at lines 57--63
-
- []
-
-<figures/diode-linearization.png, id=360, 1155.31625pt x 604.2575pt>
+<figures/diode-linearization.png, id=502, 1155.31625pt x 604.2575pt>
 File: figures/diode-linearization.png Graphic file (type png)
 
-<use figures/diode-linearization.png> [88 <./figures/diode-linearization.png (P
-NG copy)>]
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
- <figures/SMCSim-B-Rectifier.png, id=364, 1302.8675pt x 712.6625pt>
+<use figures/diode-linearization.png>
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+
+<figures/SMCSim-B-Rectifier.png, id=503, 1302.8675pt x 712.6625pt>
 File: figures/SMCSim-B-Rectifier.png Graphic file (type png)
 
-<use figures/SMCSim-B-Rectifier.png>
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-
-<figures/select-SMCSim.png, id=365, 1371.1225pt x 770.88pt>
+<use figures/SMCSim-B-Rectifier.png> [104 <./figures/diode-linearization.png (P
+NG copy)>]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+ <figures/select-SMCSim.png, id=507, 104.39pt x 490.83376pt>
 File: figures/select-SMCSim.png Graphic file (type png)
 
-<use figures/select-SMCSim.png>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<figures/SMCSim-simulation.png, id=366, 1227.58624pt x 737.75626pt>
+<use figures/select-SMCSim.png> [105 <./figures/SMCSim-B-Rectifier.png (PNG cop
+y)> <./figures/select-SMCSim.png>]
+<figures/SMCSim-simulation.png, id=512, 1227.58624pt x 737.75626pt>
 File: figures/SMCSim-simulation.png Graphic file (type png)
 
-<use figures/SMCSim-simulation.png>
+<use figures/SMCSim-simulation.png>) (./texfiles/chap10.tex [106 <./figures/SMC
+Sim-simulation.png (PNG copy)>]
+Chapter 10.
+[107
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) (./texfiles/chap10.tex [89 <./figures/SMCSim-B-Rectifier.png (PNG copy)>]
-[90 <./figures/select-SMCSim.png (PNG copy)> <./figures/SMCSim-simulation.png (
-PNG copy)>]
-Chapter 9.
-[91
-
-] [92] [93]
-Missing character: There is no ¬ in font cmr12!
-Missing character: There is no ≠ in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
- [94]
-Overfull \hbox (15.80038pt too wide) in paragraph at lines 145--146
-[]\OT1/cmr/m/n/12 Right-click on the file named \OT1/cmtt/m/n/12 index.html\OT1
-/cmr/m/n/12 , and choose \OT1/cmtt/m/n/12 Open with Firefox
+]
+Overfull \hbox (8.47282pt too wide) in paragraph at lines 51--53
+[]\OT1/cmr/m/n/10 To as-sign val-ues to com-po-nents in the astable mul-ti-vi-b
+ra-tor cir-cuit schematic
  []
 
-[95]
-Overfull \hbox (5.2866pt too wide) in paragraph at lines 170--171
-[]\OT1/cmr/m/n/12 Create a folder on the \OT1/cmtt/m/n/12 Desktop \OT1/cmr/m/n/
-12 with your Name-RollNo-Component
+[108]
+Missing character: There is no ¬ in font cmr10!
+Missing character: There is no ≠ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+
+Overfull \hbox (1.77829pt too wide) in paragraph at lines 104--105
+[]\OT1/cmr/m/n/10 This is ex-plained us-ing a bridge rec-ti-fier cir-cuit which
+ con-tains 1N4007
  []
 
-[96]
-Overfull \hbox (12.31865pt too wide) in paragraph at lines 183--184
-[]\OT1/cmr/m/n/12 At 09:37 the video says that you have to watch Ki-Cad tu-to-r
-ial - \OT1/cmtt/m/n/12 Designing
+[109]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+
+Overfull \hbox (0.91718pt too wide) in paragraph at lines 115--116
+[]\OT1/cmr/m/n/10 As 555 timer will be mod-elled as a sub-cir-cuit, the sub-cir
+-cuit schematic
+ []
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+
+Overfull \hbox (5.08383pt too wide) in paragraph at lines 116--117
+[]\OT1/cmr/m/n/10 The tu-to-rial then shows how to edit the 555 timer sub-cir-c
+uit schematic. 
  []
 
 
-Overfull \hbox (9.1095pt too wide) in paragraph at lines 186--187
-[]\OT1/cmr/m/n/12 After you fin-ish this tu-to-rial, lo-cate the next tu-to-ria
-l \OT1/cmtt/m/n/12 Designing Printed
+Overfull \hbox (0.22128pt too wide) in paragraph at lines 148--149
+[]\OT1/cmr/m/n/10 Right-click on the file named \OT1/cmtt/m/n/10 index.html\OT1
+/cmr/m/n/10 , and choose \OT1/cmtt/m/n/10 Open with Firefox
  []
 
-) (./oscad.bbl [97]) (./oscad.ind [98
+[110] [111] [112]) (./texfiles/chap11.tex
+Chapter 11.
+<figures/aakash_br.png, id=535, 1909.1325pt x 1285.80376pt>
+File: figures/aakash_br.png Graphic file (type png)
 
-] [99
+<use figures/aakash_br.png> [113
 
-]) (./oscad.aux)
+ <./figures/aakash_br.png (PNG copy)>]
+<figures/aakash_ngspice.png, id=539, 2601.72pt x 1943.26pt>
+File: figures/aakash_ngspice.png Graphic file (type png)
 
-LaTeX Warning: There were undefined references.
+<use figures/aakash_ngspice.png> [114 <./figures/aakash_ngspice.png (PNG copy)>
+] <figures/aakash_setup.png, id=543, 2601.72pt x 1943.26pt>
+File: figures/aakash_setup.png Graphic file (type png)
+
+<use figures/aakash_setup.png>) (./texfiles/Appendix.tex [115 <./figures/aakash
+_setup.png (PNG copy)>]
+Appendix A.
+<figures/apd1.png, id=548, 349.305pt x 501.875pt>
+File: figures/apd1.png Graphic file (type png)
+ <use figures/apd1.png>
+<figures/apd4.png, id=549, 462.72874pt x 318.18875pt>
+File: figures/apd4.png Graphic file (type png)
+ <use figures/apd4.png>
+<figures/apd6.png, id=550, 403.5075pt x 406.51875pt>
+File: figures/apd6.png Graphic file (type png)
+ <use figures/apd6.png>
+<figures/apd7.png, id=551, 406.51875pt x 406.51875pt>
+File: figures/apd7.png Graphic file (type png)
+ <use figures/apd7.png>
+<figures/apd8.png, id=552, 593.21625pt x 671.50874pt>
+File: figures/apd8.png Graphic file (type png)
+ <use figures/apd8.png>
+<figures/apd9.png, id=553, 675.52374pt x 562.1pt>
+File: figures/apd9.png Graphic file (type png)
+ <use figures/apd9.png>
+<figures/apd10.png, id=554, 1109.14375pt x 559.08875pt>
+File: figures/apd10.png Graphic file (type png)
+
+<use figures/apd10.png>
+Underfull \hbox (badness 10000) in paragraph at lines 77--78
+
+ []
+
+[116
+
+] [117 <./figures/apd1.png (PNG copy)> <./figures/apd4.png (PNG copy)>]
+[118 <./figures/apd6.png (PNG copy)> <./figures/apd7.png (PNG copy)>]
+<figures/apd11.png, id=564, 293.095pt x 502.87875pt>
+File: figures/apd11.png Graphic file (type png)
+ <use figures/apd11.png>
+<figures/apd12.png, id=565, 406.51875pt x 422.57875pt>
+File: figures/apd12.png Graphic file (type png)
+ <use figures/apd12.png>
+<figures/apd13.png, id=566, 657.45625pt x 563.10374pt>
+File: figures/apd13.png Graphic file (type png)
+ <use figures/apd13.png>
+<figures/apd14.png, id=567, 1186.4325pt x 670.505pt>
+File: figures/apd14.png Graphic file (type png)
+ <use figures/apd14.png>
+Underfull \hbox (badness 10000) in paragraph at lines 118--119
+
+ []
+
+[119 <./figures/apd8.png (PNG copy)>] [120 <./figures/apd9.png (PNG copy)> <./f
+igures/apd10.png (PNG copy)>] [121 <./figures/apd11.png (PNG copy)> <./figures/
+apd12.png (PNG copy)>] <figures/apd15.png, id=578, 300.12125pt x 616.3025pt>
+File: figures/apd15.png Graphic file (type png)
+
+<use figures/apd15.png> <figures/apd16.png, id=579, 407.5225pt x 416.55624pt>
+File: figures/apd16.png Graphic file (type png)
+
+<use figures/apd16.png> <figures/apd17.png, id=580, 658.46pt x 402.50375pt>
+File: figures/apd17.png Graphic file (type png)
+
+<use figures/apd17.png> <figures/apd18.png, id=581, 1114.1625pt x 671.50874pt>
+File: figures/apd18.png Graphic file (type png)
+
+<use figures/apd18.png>
+Underfull \hbox (badness 10000) in paragraph at lines 159--160
+
+ []
+
+[122 <./figures/apd13.png (PNG copy)>]
+<figures/mosfet1.png, id=585, 322.20375pt x 618.31pt>
+File: figures/mosfet1.png Graphic file (type png)
+
+<use figures/mosfet1.png>
+<figures/mosfet2.png, id=586, 404.51125pt x 449.68pt>
+File: figures/mosfet2.png Graphic file (type png)
+
+<use figures/mosfet2.png> [123 <./figures/apd14.png (PNG copy)> <./figures/apd1
+5.png (PNG copy)>] <figures/mosfet3.png, id=590, 664.4825pt x 500.87125pt>
+File: figures/mosfet3.png Graphic file (type png)
+
+<use figures/mosfet3.png>
+<figures/mosfet4.png, id=591, 1113.15875pt x 664.4825pt>
+File: figures/mosfet4.png Graphic file (type png)
+
+<use figures/mosfet4.png>
+Underfull \hbox (badness 10000) in paragraph at lines 204--205
+
+ []
+
+[124 <./figures/apd16.png (PNG copy)> <./figures/apd17.png (PNG copy)>]
+[125 <./figures/apd18.png (PNG copy)> <./figures/mosfet1.png (PNG copy)>]
+<figures/apd19.png, id=598, 668.4975pt x 277.035pt>
+File: figures/apd19.png Graphic file (type png)
+ <use figures/apd19.png>
+<figures/apd21.png, id=599, 608.2725pt x 462.72874pt>
+File: figures/apd21.png Graphic file (type png)
+ <use figures/apd21.png>
+<figures/apd22.png, id=600, 607.26875pt x 465.74pt>
+File: figures/apd22.png Graphic file (type png)
+ <use figures/apd22.png>
+<figures/openua741.png, id=601, 464.73625pt x 333.245pt>
+File: figures/openua741.png Graphic file (type png)
+
+<use figures/openua741.png>
+<figures/apd23.png, id=602, 1088.065pt x 300.12125pt>
+File: figures/apd23.png Graphic file (type png)
+ <use figures/apd23.png>
+<figures/apd24.png, id=603, 670.505pt x 379.4175pt>
+File: figures/apd24.png Graphic file (type png)
+ <use figures/apd24.png>
+[126 <./figures/mosfet2.png (PNG copy)>] [127 <./figures/mosfet3.png (PNG copy)
+> <./figures/mosfet4.png (PNG copy)>]
+<figures/apd25.png, id=611, 1113.15875pt x 567.11874pt>
+File: figures/apd25.png Graphic file (type png)
+
+<use figures/apd25.png>
+Underfull \hbox (badness 10000) in paragraph at lines 280--281
+
+ []
+
+<figures/apd26.png, id=612, 648.4225pt x 270.00874pt>
+File: figures/apd26.png Graphic file (type png)
+ <use figures/apd26.png>
+[128 <./figures/apd19.png (PNG copy)> <./figures/apd21.png (PNG copy)>]
+<figures/apd27.png, id=616, 407.5225pt x 370.38374pt>
+File: figures/apd27.png Graphic file (type png)
+ <use figures/apd27.png>
+<figures/apd31.png, id=617, 615.29875pt x 563.10374pt>
+File: figures/apd31.png Graphic file (type png)
+ <use figures/apd31.png>
+<figures/apd32.png, id=618, 1108.14pt x 665.48625pt>
+File: figures/apd32.png Graphic file (type png)
+ <use figures/apd32.png>
+[129 <./figures/apd22.png (PNG copy)>]
+<figures/apd33.png, id=622, 653.44125pt x 344.28625pt>
+File: figures/apd33.png Graphic file (type png)
+ <use figures/apd33.png>
+<figures/apd34.png, id=623, 407.5225pt x 589.20125pt>
+File: figures/apd34.png Graphic file (type png)
+ <use figures/apd34.png>
+<figures/apd35.png, id=624, 513.92pt x 560.0925pt>
+File: figures/apd35.png Graphic file (type png)
+ <use figures/apd35.png>
+<figures/apd36.png, id=625, 1106.1325pt x 658.46pt>
+File: figures/apd36.png Graphic file (type png)
+ <use figures/apd36.png>
+Underfull \hbox (badness 10000) in paragraph at lines 360--361
+
+ []
+
+[130 <./figures/openua741.png (PNG copy)> <./figures/apd23.png (PNG copy)>]
+<figures/apd37.png, id=629, 539.01375pt x 469.755pt>
+File: figures/apd37.png Graphic file (type png)
+ <use figures/apd37.png>
+<figures/apd38.png, id=630, 407.5225pt x 439.6425pt>
+File: figures/apd38.png Graphic file (type png)
+ <use figures/apd38.png>
+<figures/apd39.png, id=631, 523.9575pt x 562.1pt>
+File: figures/apd39.png Graphic file (type png)
+ <use figures/apd39.png>
+<figures/apd40.png, id=632, 1105.12875pt x 561.09625pt>
+File: figures/apd40.png Graphic file (type png)
+
+<use figures/apd40.png> [131 <./figures/apd24.png (PNG copy)> <./figures/apd25.
+png (PNG copy)>] [132 <./figures/apd26.png (PNG copy)> <./figures/apd27.png (PN
+G copy)>]) (./texfiles/sp-appendix.tex [133 <./figures/apd31.png (PNG copy)>]
+[134 <./figures/apd32.png (PNG copy)> <./figures/apd33.png (PNG copy)>]
+[135 <./figures/apd34.png (PNG copy)>] [136 <./figures/apd35.png (PNG copy)>]
+[137 <./figures/apd36.png (PNG copy)>] [138 <./figures/apd37.png (PNG copy)>]
+[139 <./figures/apd38.png (PNG copy)>] [140 <./figures/apd39.png (PNG copy)>]
+[141 <./figures/apd40.png (PNG copy)>]
+Appendix B.
+[142
+
+])
+Overfull \hbox (32.97131pt too wide) in paragraph at lines 42--29
+[]\OT1/cmr/m/n/10 For Spo-ken Tu-to-rial re-lated queries please write to: \OT1
+/cmtt/m/n/10 contact@spoken-tutorial.org 
+ []
 
 
-LaTeX Warning: There were multiply-defined labels.
+Overfull \hbox (33.58208pt too wide) in paragraph at lines 42--29
+\OT1/cmr/m/n/10 To con-tribute to Os-cad project OR to know more about Os-cad p
+roject: \OT1/cmtt/m/n/10 info@fossee.in
+ []
 
- ) 
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--29
+
+ []
+
+(./oscad.bbl [143]) (./oscad.ind [144
+
+] [145
+
+] [146]) (./oscad.aux) )
+(\end occurred inside a group at level 1)
+
+### simple group (level 1) entered at line 167 ({)
+### bottom level 
 Here is how much of TeX's memory you used:
- 2219 strings out of 493848
- 30079 string characters out of 1152823
- 81473 words of memory out of 3000000
- 5405 multiletter control sequences out of 15000+50000
- 9690 words of font info for 35 fonts, out of 3000000 for 9000
+ 3065 strings out of 493848
+ 45271 string characters out of 1152823
+ 87359 words of memory out of 3000000
+ 6131 multiletter control sequences out of 15000+50000
+ 7338 words of font info for 27 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 27i,6n,20p,1267b,325s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/sha
-re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-te
-xlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/
-type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/publi
-c/amsfonts/cm/cmti12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/
-cm/cmtt12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/latxfont/lc
-irclew.pfb>
-Output written on oscad.pdf (99 pages, 5444941 bytes).
+ 27i,7n,21p,1281b,375s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10
+.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/
+share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf
+-texlive/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texmf-texlive/fon
+ts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-texlive/fonts/type1/pub
+lic/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts
+/cm/cmr5.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr7.pfb>
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share
+/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-texli
+ve/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-texlive/fonts/ty
+pe1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf-texlive/fonts/type1/public/
+amsfonts/latxfont/lcirclew.pfb>
+Output written on oscad.pdf (146 pages, 25974019 bytes).
 PDF statistics:
- 428 PDF objects out of 1000 (max. 8388607)
+ 730 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 356 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 891 words of extra memory for PDF output out of 10000 (max. 10000000)
 

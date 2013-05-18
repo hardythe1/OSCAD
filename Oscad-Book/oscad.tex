@@ -1,7 +1,14 @@
-\documentclass[12pt]{report}
+\documentclass[10pt]{report}
 \usepackage{amsmath,graphicx,makeidx}
-\usepackage{fancybox}
-\bibliographystyle{plain}
+\usepackage{fancybox,url}
+\usepackage{cite}
+%\usepackage{appendix}
+\newcommand{\figref}[1]{Fig.~\ref{#1}}
+\renewcommand{\topfraction}{1}
+\renewcommand{\bottomfraction}{1}
+\renewcommand{\textfraction}{0}
+\renewcommand{\floatpagefraction}{0.85}
+\bibliographystyle{./IEEEtran}
 \makeindex
 \begin{document}
 \tableofcontents
@@ -12,9 +19,15 @@
 \input{texfiles/chap4.tex}
 \input{texfiles/chap5.tex}
 \input{texfiles/chap6.tex}
+\input{texfiles/chap7.tex}
 \input{texfiles/chap8.tex}
 \input{texfiles/chap9.tex}
 \input{texfiles/chap10.tex}
+\input{texfiles/chap11.tex}
+\input{texfiles/Appendix.tex}
+\input{texfiles/sp-appendix.tex}
+
+
 
 
 

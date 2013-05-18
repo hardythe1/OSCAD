@@ -6,7 +6,7 @@
 %\tableofcontents
 
 \chapter{Schematic Creation}
-\label{schem}
+\label{chap5}
 The first step in the design of an electronic system is the design of its circuit. This circuit is usually created using a {\tt Schematic Editor}\index{Schematic!editor} and is called a {\tt Schematic}. \index{Schematic}Oscad uses {\tt EEschema} \index{EEschema} as its schematic editor. EEschema is the schematic editor of KiCad. It is a powerful schematic editor software. It allows the creation and  modification of components and symbol libraries and supports multiple hierarchical layers of printed circuit design.
 
 \section{Familiarising the schematic editor interface}
@@ -22,6 +22,7 @@ Figure \ref{eesch1} shows the schematic editor and the various menu and tool bar
 
 
 \subsection{Top Menu Bar}
+The top menu bar will be available at the top left corner.
 Some of the important menu options in the top menu bar are:
 \begin{enumerate}
 \item File - 
@@ -45,7 +46,7 @@ The file menu items are given below:
 \end{center}
 \end{figure}
 \item Place - 
-The place menu is a short cut to placing various items like components, wire, junction etc. onto the schematic editor. See the section \ref{short} to know more about various short cut keys (hotkeys).
+The place menu has short cuts for placing various items like components, wire, junction etc. onto the schematic editor. See the section \ref{short} to know more about various short cut keys (hotkeys).
 \item Preferences - 
 The preferences menu has the following options:
 \begin{enumerate}
@@ -60,7 +61,7 @@ The preferences menu has the following options:
 
 \end{enumerate} 
 
-\subsection{Top toolbar}\index{Schematic!toolbar!top}
+\subsection{Top toolbar}\index{Schematic!toolbar!top}\index{EEschema!toolbar!top}
 Some of the important tools in the top toolbar are discussed below. They are marked in Figure \ref{eeschem2}
 \begin{figure}
 \centering
@@ -80,7 +81,7 @@ Some of the important tools in the top toolbar are discussed below. They are mar
 \item Create BOM - Create a Bill of Materials of your schematic
 \end{enumerate}
 
-\subsection{Toolbar on the right}\index{Schematic!toolbar!right}
+\subsection{Toolbar on the right}\index{Schematic!toolbar!right}\index{EEschema!toolbar!right}
 The toolbar on the right side of the schematic editor has many important tools. Some of them are marked in Figure \ref{eeschem3}.
 \begin{figure}
 \centering
@@ -91,7 +92,7 @@ The toolbar on the right side of the schematic editor has many important tools. 
 
 Let us now see these tools one by one.
 \begin{enumerate}
-\item Place a component - Load a component to your schematic. See section \ref{component} for more details.
+\item Place a component - Load a component to your schematic. See section \ref{selplace} for more details.
 \item Place a power port - Load a power port (Vcc, ground) to your schematic
 \item Place wire - Draw wires to connect components in schematic
 \item Place bus - Place a bus on your schematic
@@ -101,7 +102,7 @@ Let us now see these tools one by one.
 \item Create a hierarchical sheet - Create a sub-sheet with in the root sheet in the hierarchy. Hierarchical schematics are a good solution for big projects
 \item Place a text or comment - Place a text or comment in your schematic
 \end{enumerate}
-\subsection{Toolbar on the left}\index{Schematic!toolbar!left}
+\subsection{Toolbar on the left}\index{Schematic!toolbar!left}\index{EEschema!toolbar!left}
 Some of the important tools in the toolbar on the left are discussed below. They are marked in Figure \ref{eeschem4}
 \begin{figure}
 \centering
@@ -115,9 +116,9 @@ Some of the important tools in the toolbar on the left are discussed below. They
 \item Show hidden pins - Show hidden pins of certain components, for  example, power pins of certain ICs. 
 \end{enumerate}
 
-\section{Hotkeys}\index{Hotkeys} 
+\subsection{Hotkeys}\index{Hotkeys!Schematic Editor} 
 \label{short}
-A set of keyboard keys are associated with various operations in the schematic editor. These keys saves time and make it easy to move from one operation to another. The list of hotkeys can be viewed by going to Preferences in the top menu bar. Choose \textit{Hotkeys} and select \textit{List current keys}. You can also edit the hotkeys by selecting the option \textit{Edit Hotkeys}.
+A set of keyboard keys are associated with various operations in the schematic editor. These keys save time and make it easy to move from one operation to another. The list of hotkeys can be viewed by going to Preferences in the top menu bar. Choose \textit{Hotkeys} and select \textit{List current keys}. You can also edit the hotkeys by selecting the option \textit{Edit Hotkeys}.
 Some of the useful hotkeys are listed below:
 \begin{itemize}
 \item F1 - Zoom in
@@ -158,7 +159,7 @@ The Oscad libraries (created for simulation) are given below:
 Note that the names of all Oscad libraries end with the word \textit{Spice}. Consider the Oscad library \textit{linearSpice}. If you want to simulate a circuit that has a 555 timer IC in it, you should use the 555 timer from this library. This is because only then it will be mapped to the subcircuit of 555 which is required for simulation. Similarly if you use a Flip flop from digitalXSpice, the Xspice description of the Flip flop will be mapped to it and enables us to simulate the Flip flop behaviour.
 \subsection{Adding Oscad component libraries to project}
 \label{add}
-Let us see how you can add the Oscad libraries to your project. Go to \textit{Preferences} from the top menu bar. Choose \textit{Library}. You will get the window shown in Figure \ref{lib}. Click on \textit{Add} (marked in red). Browse to the folder where Oscad is installed. Go to the folder \textit{Library}. Select all the {\tt *.lib} files as shown in Figure \ref{select}. Click on Open. Now click on OK on the window shown in Figure \ref{lib}. 
+Let us see how you can add the Oscad libraries to your project. Go to \textit{Preferences} from the top menu bar. Choose \textit{Library}. You will get the window shown in Figure \ref{lib}. Click on \textit{Add} (marked in red). Browse to the folder where Oscad is installed. Go to the folder \textit{Library}. Select all the {\tt *.lib} files as shown in Figure \ref{chap5select}. Click on Open. Now click on OK on the window shown in Figure \ref{lib}. 
 
 \textit{Note:} You will have add these to your project each time you create or edit your schematic.
 
@@ -172,7 +173,7 @@ Let us see how you can add the Oscad libraries to your project. Go to \textit{Pr
 \centering
 \includegraphics[width=\textwidth]{figures/select}
 \caption{Select all the Oscad library (*.lib) files as shown}
-\label{select}
+\label{chap5select}
 \end{figure}
 \subsection{Library browser}\index{Component!library}
 You can browse through EEschema and Oscad libraries using the library browser tool from the top menu bar. The components in the \textit{sourcesSpice} library is shown in Figure \ref{meas} to illustrate this.
@@ -200,7 +201,7 @@ Plot components are required to view the results of simulation. These are availa
 \end{itemize}
 \subsection{Power component library}\index{Component!library!power}
 \label{pwr}
-Power components (Vcc and ground) are essential parts of a schematic - both for PCB design and simulation. Power components are available in the EEschema library \textit{power} as shown in Figure \ref{powerlib}. Another important component in this library is the Power Flag, \textit{PWR\_FLAG}. It is a dummy component placed in schematic to tell the schematic editor that the pin/node is driven by a power source and hence prevent ERC errors. 
+Power components (Vcc and ground) are essential parts of a schematic - both for PCB design and simulation. Power components are available in the EEschema library \textit{power} as shown in Figure \ref{powerlib}. Another important component in this library is the Power Flag, \textit{PWR\_FLAG}. It is a dummy component placed in schematic to tell the schematic editor that the pin/node is driven by a power source and hence prevents ERC errors. 
 \begin{figure}
 \centering
 \includegraphics[width=0.7\textwidth]{figures/powerlib}
@@ -208,6 +209,7 @@ Power components (Vcc and ground) are essential parts of a schematic - both for 
 \label{powerlib}
 \end{figure}
 \subsection{Connector library}\index{Component!library!connector}
+\label{sconn}
 You would want to place connectors in your PCB to take signals in and out of it. These connectors are available in the EEschema library \textit{conn} as shown in Figure \ref{conn}.
 \begin{figure}
 \centering
@@ -216,7 +218,7 @@ You would want to place connectors in your PCB to take signals in and out of it.
 \label{conn}
 \end{figure}
 \subsection{Component references}\index{Component!reference}
-Every component has a unique reference. For e.g., resistor has a reference {\tt R}, BJTs have a reference {\tt Q}, MOSFETs have a reference {\tt M}, ICs have a reference {\tt U} etc. When a component is placed in the schematic editor, the reference will be shown with a question mark. This indicates that the component is not annotated. See section \ref{ann} for more information about annotation.
+Every component has a unique reference. For e.g., resistor has a reference {\tt R}, BJTs have a reference {\tt Q}, MOSFETs have a reference {\tt M}, ICs have a reference {\tt U} etc. If a component is to be made a subcircuit, then its reference should be `X'. When a component is placed in the schematic editor, the reference will be shown with a question mark. This indicates that the component is not annotated. See section \ref{ann} for more information about annotation.
 \section{Schematic creation for Simulation and PCB design - Differences}
 There are certain differences between the schematic created for simulation and that created for PCB design. We need certain components like plots, current sources etc. for simulation whereas these are not needed for PCB design. For PCB design, we would require connectors (e.g., DB15, 2 pin connector etc) for taking signals in and out of the PCB whereas these have no meaning in simulation. 
 \section{Schematic creation for simulation}
@@ -227,12 +229,13 @@ The first step in the creation of circuit schematic is the selection and placeme
 \caption{RC circuit}
 \label{schemRC}
 \end{figure}
-\subsection{Selection and Placing of components}\index{Component!place}
+\subsection{Selection and Placement of components}\index{Component!place}
+\label{selplace}
 We would need a resistor, a capacitor, a voltage source, ground terminal and some plot components. 
 
 Add the Oscad libraries to your project as described in section \ref{add}.
 
-To place a resistor on your schematic editor, select the \textit{Place a component} tool from the toolbar on the right side and click anywhere on the schematic editor. This opens up the component selection window. The above action can also be performed by pressing the key A. Type {\tt R} in the field \textit{Name} of the {\tt component selection} window as shown in Figure \ref{res}. Click on OK. A resistor will be tied to the cursor. Place the resistor on the schematic editor by a single click.
+To place a resistor on your schematic editor, select the \textit{Place a component} tool from the toolbar on the right side and click anywhere on the schematic editor. This opens up the component selection window. (The above action can also be performed by pressing the key A.) Type {\tt R} in the field \textit{Name} of the {\tt component selection} window as shown in Figure \ref{res}. Click on OK. A resistor will be tied to the cursor. Place the resistor on the schematic editor by a single click.
 
 \begin{figure}
 \centering
@@ -248,7 +251,7 @@ We need to place two plot components. Let us place {\tt vplot8\_1} as we need to
 
 Similarly place a ground terminal {\tt gnd} from the library \textit{power}. It can also be placed using the \textit{Place a power port} tool from the toolbar on the right. Click anywhere on the editor after selecting place a power port tool. Click \textit{List all} and choose {\tt gnd}.
 
-Once all the components are placed, the schematic editor would like the Figure \ref{afterplace}.
+Once all the components are placed, the schematic editor would look like the Figure \ref{afterplace}.
 \begin{figure}
 \centering
 \includegraphics[width=0.5\textwidth]{figures/afterplace}
@@ -266,6 +269,7 @@ Let us rotate the resistor to complete the circuit as shown in Figure \ref{schem
 
 If you want to move a component, place the cursor on top of the component and press the key {\tt M}. The component will be tied to the cursor and can be moved in any direction. \index{Component!move}
 \subsection{Wiring the circuit}
+\index{Schematic!wiring}
 The next step is to wire the connections. Let us connect the resistor to the capacitor. To do so, point the cursor to the terminal of resistor you want to connect and press the key {\tt W}. It has now changed to the wiring mode. Move the cursor towards the terminal of the capacitor and click on it. A wire is formed as shown in Figure \ref{wire1}.
 \begin{figure}
 \centering
@@ -273,13 +277,15 @@ The next step is to wire the connections. Let us connect the resistor to the cap
 \caption{Wiring example}
 \label{wire1}
 \end{figure}
-Similarly connect the wires between all terminals and the final schematic would look like Figure \ref{wirefin}.
 \begin{figure}
 \centering
 \includegraphics[width=0.5\textwidth]{figures/wirefin}
 \caption{Wiring done}
 \label{wirefin}
 \end{figure}
+
+
+Similarly connect the wires between all terminals and the final schematic would look like Figure \ref{wirefin}.
 \subsection{Assigning values to components}\index{Component!values}
 We need to assign values to the components in our circuit i.e., resistor and capacitor. Note that the sine voltage source has been placed for simulation. The specifications of sine source will be given during simulation.
 
@@ -291,24 +297,24 @@ To assign value to resistor, place the cursor above the letter {\tt R} (not {\tt
 \label{field}
 \end{figure}
 \subsection{Annotation and ERC}
-\label{ann}\index{Annotate}
-The next step is to annotate the schematic. Annotation gives unique references to the components. to annotate the schematic, click on \textit{Annotate schematic} tool from the top toolbar. Click on annotate, then click on OK and finally click on close as shown in Figure \ref{anno}. The schematic is now annotated. The question marks next to component references have been replaced by unique numbers. If there are more than one instance of a component (say resistor), the annotation will be done as R1, R2 etc.
+\label{ann}\index{Annotate}\index{Schematic!annotate}\index{ERC} \index{Schematic!ERC}
+The next step is to annotate the schematic. Annotation gives unique references to the components. To annotate the schematic, click on \textit{Annotate schematic} tool from the top toolbar. Click on annotation, then click on OK and finally click on close as shown in Figure \ref{anno}. The schematic is now annotated. The question marks next to component references have been replaced by unique numbers. If there are more than one instance of a component (say resistor), the annotation will be done as R1, R2 etc.
 
 
 \begin{figure}
 \centering
 \includegraphics[width=0.78\textwidth]{figures/anno}
-\caption{1. First click on Annotate then 2. Click on Ok then 3. Click on close}
+\caption{1. First click on Annotation then 2. Click on Ok then 3. Click on close}
 \label{anno}
 \end{figure}
-Let us do ERC or Electric Rules Check next. To do so, click on \textit{Perform electric rules check} tool from the top toolbar. Click on \textit{Test Erc} button. You may get an error as shown in Figure \ref{erc}. Click on close in the test erc window.\index{ERC}
+Let us now do ERC or Electric Rules Check. To do so, click on \textit{Perform electric rules check} tool from the top toolbar. Click on \textit{Test Erc} button. You may get an error as shown in Figure \ref{erc}. Click on close in the test erc window.\index{ERC}
 \begin{figure}
 \centering
 \includegraphics[width=\textwidth]{figures/erc1}
 \caption{ERC error}
 \label{erc}
 \end{figure}
-There will be a green arrow pointing to the source of error, here it points to the ground terminal. This is shown in Figure \ref{ercgnd}
+There will be a green arrow pointing to the source of error in the schematic. Here it points to the ground terminal. This is shown in Figure \ref{ercgnd}
 \begin{figure}
 \centering
 \includegraphics[width=0.1\textwidth]{figures/ercgnd}
@@ -316,7 +322,7 @@ There will be a green arrow pointing to the source of error, here it points to t
 \label{ercgnd}
 \end{figure}
 
-To correct this error, place a {\tt PWR\_FLAG} from the EEschema library {\tt power}. Connect the power flag to the ground terminal as shown in Figure \ref{schemfin}. More information about PWR\_FLAG is given in section \ref{pwr}. Repeat the ERC. Now there are no errors. With this we have created the schematic for simulation.
+To correct this error, place a {\tt PWR\_FLAG} from the EEschema library {\tt power}. \index{Power Flag} Connect the power flag to the ground terminal as shown in Figure \ref{schemfin}. More information about PWR\_FLAG is given in section \ref{pwr}. You need to place {\tt PWR\_FLAG} wherever you get the error shown in Figure \ref{erc}. Repeat the ERC. Now there are no errors. With this we have created the schematic for simulation.
 %\clearpage
 \begin{figure}
 \centering
@@ -325,14 +331,15 @@ To correct this error, place a {\tt PWR\_FLAG} from the EEschema library {\tt po
 \label{schemfin}
 \end{figure} 
 \subsection{Netlist generation}\index{Netlist!for simulation}
-To simulate the circuit that you created in the previous section, we need to generate its netlist. {\tt Netlist} is a list of components in the schematic along with their connection information. \index{Netlist} To do so, click on the \textit{Generate netlist} tool from the top toolbar. Click on spice from the window that appears now. Uncheck the option {\tt Prefix references `U' and `IC' with `X'}. Then click on \textit{Netlist}. This is shown in figure \ref{net}. Save the netlist. This will be a {\tt .cir} file. Do not change the directory while saving.
+\label{chap5-netlist-generation}
+To simulate the circuit that you created in the previous section, we need to generate its netlist. {\tt Netlist} is a list of components in the schematic along with their connection information. \index{Netlist} To do so, click on the \textit{Generate netlist} tool from the top toolbar. Click on spice from the window that opens up. Uncheck the option {\tt Prefix references `U' and `IC' with `X'}. Then click on \textit{Netlist}. This is shown in figure \ref{chap5net}. Save the netlist. This will be a {\tt .cir} file. Do not change the directory while saving.
 \begin{figure}
 \centering
 \includegraphics[width=0.5\textwidth]{figures/net}
 \caption{1. Click on Spice then 2. Uncheck the option {\tt Prefix references `U' and `IC' with `X'} then 3. Click on Netlist }
-\label{net}
+\label{chap5net}
 \end{figure} 
 
-Now you are ready with the netlist to be simulated. The next chapter will guide you to perform simulation.
+Now you are ready with the netlist to be simulated. The next chapter will guide you to perform simulation. If you would like to know more about EEschema, please refer \cite{kicad}.
 %\printindex
 %\end{document}

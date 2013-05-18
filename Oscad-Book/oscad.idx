@@ -1,26 +1,140 @@
 \indexentry{EDA! tools}{5}
 \indexentry{EDA!design flow}{5}
-\indexentry{PCB}{6}
+\indexentry{PCB}{5}
 \indexentry{Oscad}{6}
-\indexentry{Schematic!editor}{30}
-\indexentry{Schematic}{30}
-\indexentry{EEschema}{30}
-\indexentry{Schematic!toolbar!top}{33}
-\indexentry{Schematic!toolbar!right}{35}
-\indexentry{Schematic!toolbar!left}{35}
-\indexentry{Hotkeys}{36}
-\indexentry{Component}{37}
-\indexentry{Component!library!Oscad libraries}{37}
-\indexentry{Component!library}{38}
-\indexentry{Component!library!plot}{42}
-\indexentry{Component!library!power}{42}
-\indexentry{Component!library!connector}{44}
-\indexentry{Component!reference}{44}
-\indexentry{Component!place}{45}
-\indexentry{Component!rotate}{46}
-\indexentry{Component!move}{46}
-\indexentry{Component!values}{48}
-\indexentry{Annotate}{50}
-\indexentry{ERC}{50}
-\indexentry{Netlist!for simulation}{51}
-\indexentry{Netlist}{51}
+\indexentry{Ubuntu}{7}
+\indexentry{Linux}{7}
+\indexentry{Oscad Installer}{8}
+\indexentry{installOSCAD.sh}{11}
+\indexentry{installModule.sh}{11}
+\indexentry{Terminal}{11}
+\indexentry{proxy}{12}
+\indexentry{python}{13}
+\indexentry{Netlist}{18}
+\indexentry{CAD}{21}
+\indexentry{PCB Layout}{21}
+\indexentry{Design rules check}{22}
+\indexentry{HPGL}{22}
+\indexentry{CvPcb}{22}
+\indexentry{Pcbnew}{22}
+\indexentry{SPECCTRA}{23}
+\indexentry{Operating point analysis}{23}
+\indexentry{DC Analysis}{23}
+\indexentry{AC Small-signal Analysis}{23}
+\indexentry{Transient Analysis}{23}
+\indexentry{diode}{25}
+\indexentry{BJT}{25}
+\indexentry{JFET}{25}
+\indexentry{MES-FET}{25}
+\indexentry{MOSFET}{25}
+\indexentry{SMCSim}{25}
+\indexentry{gEDA}{26}
+\indexentry{BSIM}{26}
+\indexentry{EKV}{26}
+\indexentry{HICUM}{26}
+\indexentry{HiSim}{26}
+\indexentry{PSP}{26}
+\indexentry{PTM}{26}
+\indexentry{Oscad tool bar}{28}
+\indexentry{Schematic!editor}{29}
+\indexentry{Load error message}{30}
+\indexentry{Analysis Inserter}{30}
+\indexentry{Netlist converter}{32}
+\indexentry{Ngspice}{33}
+\indexentry{CvPcb}{34}
+\indexentry{Footprints}{34}
+\indexentry{Pcbnew}{34}
+\indexentry{Schematic!editor}{40}
+\indexentry{Schematic}{40}
+\indexentry{EEschema}{40}
+\indexentry{Schematic!toolbar!top}{42}
+\indexentry{EEschema!toolbar!top}{42}
+\indexentry{Schematic!toolbar!right}{43}
+\indexentry{EEschema!toolbar!right}{43}
+\indexentry{Schematic!toolbar!left}{44}
+\indexentry{EEschema!toolbar!left}{44}
+\indexentry{Hotkeys!Schematic Editor}{45}
+\indexentry{Component}{45}
+\indexentry{Component!library!Oscad libraries}{46}
+\indexentry{Component!library}{46}
+\indexentry{Component!library!plot}{47}
+\indexentry{Component!library!power}{47}
+\indexentry{Component!library!connector}{48}
+\indexentry{Component!reference}{48}
+\indexentry{Component!place}{51}
+\indexentry{Component!rotate}{52}
+\indexentry{Component!move}{52}
+\indexentry{Schematic!wiring}{53}
+\indexentry{Component!values}{53}
+\indexentry{Annotate}{54}
+\indexentry{Schematic!annotate}{54}
+\indexentry{ERC}{54}
+\indexentry{Schematic!ERC}{54}
+\indexentry{ERC}{54}
+\indexentry{Power Flag}{54}
+\indexentry{Netlist!for simulation}{55}
+\indexentry{Netlist}{55}
+\indexentry{Circuit simulation}{57}
+\indexentry{Ngspice}{57}
+\indexentry{Analysis insertion}{57}
+\indexentry{KiCad to Ngspice conversion}{57}
+\indexentry{Ngspice simulation}{57}
+\indexentry{Analysis Inserter}{57}
+\indexentry{Types of Analysis}{57}
+\indexentry{Types of Analysis}{58}
+\indexentry{DC Analysis}{58}
+\indexentry{AC Small-signal Analysis}{58}
+\indexentry{Transient Analysis}{58}
+\indexentry{DC Analysis}{58}
+\indexentry{.dc}{58}
+\indexentry{.op}{58}
+\indexentry{AC Small-signal Analysis}{58}
+\indexentry{Transient Analysis}{59}
+\indexentry{.dc}{59}
+\indexentry{Operating point analysis}{60}
+\indexentry{AC Analysis Inserter}{61}
+\indexentry{.ac}{61}
+\indexentry{Transient Analysis Inserter}{62}
+\indexentry{.tran}{62}
+\indexentry{Netlist converter}{65}
+\indexentry{SPICE netlist}{65}
+\indexentry{sinusoidal source}{65}
+\indexentry{plotting and printing statements}{67}
+\indexentry{analysis option}{67}
+\indexentry{models and subcircuits}{67}
+\indexentry{Simulation}{67}
+\indexentry{Ngspice simulation}{68}
+\indexentry{simulation examples}{68}
+\indexentry{DC Analysis}{68}
+\indexentry{AC Small-signal Analysis}{68}
+\indexentry{Transient Analysis}{70}
+\indexentry{PCB}{74}
+\indexentry{Component!footprint}{74}
+\indexentry{Footprints}{74}
+\indexentry{Netlist!for PCB}{75}
+\indexentry{Footprints!mapping}{76}
+\indexentry{Component!footprint!mapping}{76}
+\indexentry{Footprint editor}{76}
+\indexentry{Footprints!view!2D}{77}
+\indexentry{Footprints!view!3D}{77}
+\indexentry{PCB Layout!creation}{78}
+\indexentry{Layout editor}{78}
+\indexentry{Hotkeys!Layout editor}{81}
+\indexentry{Footprints!move and place}{82}
+\indexentry{PCB design!lay tracks}{82}
+\indexentry{PCB design!design rules}{82}
+\indexentry{PCB design!pcb edges}{84}
+\indexentry{PCB design!design rules check}{87}
+\indexentry{PCB design!gerber}{87}
+\indexentry{reference field}{90}
+\indexentry{model library}{91}
+\indexentry{hierarchical modeling}{92}
+\indexentry{Scilab}{102}
+\indexentry{SMCSim}{102}
+\indexentry{normal mode}{102}
+\indexentry{symbolic mode}{102}
+\indexentry{numerical mode}{102}
+\indexentry{metanet}{102}
+\indexentry{Newton-Raphson}{104}
+\indexentry{Backward Euler}{104}
+\indexentry{Aakash}{113}

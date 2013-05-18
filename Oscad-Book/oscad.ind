@@ -1,53 +1,186 @@
 \begin{theindex}
 
-  \item Annotate, 26
+  \item .ac, 61
+  \item .dc, 58, 59
+  \item .op, 58
+  \item .tran, 62
 
   \indexspace
 
-  \item Component, 13
-    \subitem library, 14
-      \subsubitem connector, 20
-      \subsubitem Oscad libraries, 13
-      \subsubitem plot, 18
-      \subsubitem power, 18
-    \subitem move, 22
-    \subitem place, 21
-    \subitem reference, 20
-    \subitem rotate, 22
-    \subitem values, 24
+  \item Aakash, 113
+  \item AC Analysis Inserter, 61
+  \item AC Small-signal Analysis, 23, 58, 68
+  \item Analysis Inserter, 30, 57
+  \item Analysis insertion, 57
+  \item analysis option, 67
+  \item Annotate, 54
+
+  \indexspace
+
+  \item Backward Euler, 104
+  \item BJT, 25
+  \item BSIM, 26
+
+  \indexspace
+
+  \item CAD, 21
+  \item Circuit simulation, 57
+  \item Component, 45
+    \subitem footprint, 74
+      \subsubitem mapping, 76
+    \subitem library, 46
+      \subsubitem connector, 48
+      \subsubitem Oscad libraries, 46
+      \subsubitem plot, 47
+      \subsubitem power, 47
+    \subitem move, 52
+    \subitem place, 51
+    \subitem reference, 48
+    \subitem rotate, 52
+    \subitem values, 53
+  \item CvPcb, 22, 34
+
+  \indexspace
+
+  \item DC Analysis, 23, 58, 68
+  \item Design rules check, 22
+  \item diode, 25
 
   \indexspace
 
   \item EDA
-    \subitem  tools, 3
-    \subitem design flow, 3
-  \item EEschema, 6
-  \item ERC, 26
-
-  \indexspace
-
-  \item Hotkeys, 12
-
-  \indexspace
-
-  \item Netlist, 27
-    \subitem for simulation, 27
-
-  \indexspace
-
-  \item Oscad, 4
-
-  \indexspace
-
-  \item PCB, 4
-
-  \indexspace
-
-  \item Schematic, 6
-    \subitem editor, 6
+    \subitem  tools, 5
+    \subitem design flow, 5
+  \item EEschema, 40
     \subitem toolbar
-      \subsubitem left, 11
-      \subsubitem right, 11
-      \subsubitem top, 9
+      \subsubitem left, 44
+      \subsubitem right, 43
+      \subsubitem top, 42
+  \item EKV, 26
+  \item ERC, 54
+
+  \indexspace
+
+  \item Footprint editor, 76
+  \item Footprints, 34, 74
+    \subitem mapping, 76
+    \subitem move and place, 82
+    \subitem view
+      \subsubitem 2D, 77
+      \subsubitem 3D, 77
+
+  \indexspace
+
+  \item gEDA, 26
+
+  \indexspace
+
+  \item HICUM, 26
+  \item hierarchical modeling, 92
+  \item HiSim, 26
+  \item Hotkeys
+    \subitem Layout editor, 81
+    \subitem Schematic Editor, 45
+  \item HPGL, 22
+
+  \indexspace
+
+  \item installModule.sh, 11
+  \item installOSCAD.sh, 11
+
+  \indexspace
+
+  \item JFET, 25
+
+  \indexspace
+
+  \item KiCad to Ngspice conversion, 57
+
+  \indexspace
+
+  \item Layout editor, 78
+  \item Linux, 7
+  \item Load error message, 30
+
+  \indexspace
+
+  \item MES-FET, 25
+  \item metanet, 102
+  \item model library, 91
+  \item models and subcircuits, 67
+  \item MOSFET, 25
+
+  \indexspace
+
+  \item Netlist, 18, 55
+    \subitem for PCB, 75
+    \subitem for simulation, 55
+  \item Netlist converter, 32, 65
+  \item Newton-Raphson, 104
+  \item Ngspice, 33, 57
+  \item Ngspice simulation, 57, 68
+  \item normal mode, 102
+  \item numerical mode, 102
+
+  \indexspace
+
+  \item Operating point analysis, 23, 60
+  \item Oscad, 6
+  \item Oscad Installer, 8
+  \item Oscad tool bar, 28
+
+  \indexspace
+
+  \item PCB, 5, 74
+  \item PCB design
+    \subitem design rules, 82
+    \subitem design rules check, 87
+    \subitem gerber, 87
+    \subitem lay tracks, 82
+    \subitem pcb edges, 84
+  \item PCB Layout, 21
+    \subitem creation, 78
+  \item Pcbnew, 22, 34
+  \item plotting and printing statements, 67
+  \item Power Flag, 54
+  \item proxy, 12
+  \item PSP, 26
+  \item PTM, 26
+  \item python, 13
+
+  \indexspace
+
+  \item reference field, 90
+
+  \indexspace
+
+  \item Schematic, 40
+    \subitem annotate, 54
+    \subitem editor, 29, 40
+    \subitem ERC, 54
+    \subitem toolbar
+      \subsubitem left, 44
+      \subsubitem right, 43
+      \subsubitem top, 42
+    \subitem wiring, 53
+  \item Scilab, 102
+  \item Simulation, 67
+  \item simulation examples, 68
+  \item sinusoidal source, 65
+  \item SMCSim, 25, 102
+  \item SPECCTRA, 23
+  \item SPICE netlist, 65
+  \item symbolic mode, 102
+
+  \indexspace
+
+  \item Terminal, 11
+  \item Transient Analysis, 23, 58, 59, 70
+  \item Transient Analysis Inserter, 62
+  \item Types of Analysis, 57, 58
+
+  \indexspace
+
+  \item Ubuntu, 7
 
 \end{theindex}
