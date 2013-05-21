@@ -145,14 +145,14 @@ class ProjectParam(template.MyTemplate):
     buttonWindow2.place(relheight=0.9, relwidth=0.25, rely=0.02, relx=0.67)"""
     
     self.createButtonForCommand(buttonWindow,self.openSchematic,self.OSCAD_HOME+"/images/se.png","Schematic Editor")
-    self.createButtonForCommand(buttonWindow,self.openAnalysisInserter,self.OSCAD_HOME+"/images/an.png","Analysis Insertor")
-    self.createButtonForCommand(buttonWindow,self.openNetConverter,self.OSCAD_HOME+"/images/kn.png","NetList Converter")
+    self.createButtonForCommand(buttonWindow,self.openAnalysisInserter,self.OSCAD_HOME+"/images/an.png","Analysis Inserter")
+    self.createButtonForCommand(buttonWindow,self.openNetConverter,self.OSCAD_HOME+"/images/kn.png","Netlist Converter")
     self.createButtonForCommand(buttonWindow,self.openNgspice,self.OSCAD_HOME+"/images/ng.png","Ngspice")
     self.createButtonForCommand(buttonWindow,self.openFootprint,self.OSCAD_HOME+"/images/fp.png","Footprint Editor")
     self.createButtonForCommand(buttonWindow,self.openLayout,self.OSCAD_HOME+"/images/lout.png","Layout Editor")
     self.createButtonForCommand(buttonWindow,self.openSMCSim,self.OSCAD_HOME+"/images/sci.png","SMCSim")
-    self.createButtonForCommand(buttonWindow,self.openModelBuilder,self.OSCAD_HOME+"/images/mb.png","Model builder")
-    self.createButtonForCommand(buttonWindow,self.openSubcircuitBuilder,self.OSCAD_HOME+"/images/sub.png","Subcircuit builder")
+    self.createButtonForCommand(buttonWindow,self.openModelBuilder,self.OSCAD_HOME+"/images/mb.png","Model Builder")
+    self.createButtonForCommand(buttonWindow,self.openSubcircuitBuilder,self.OSCAD_HOME+"/images/sub.png","Subcircuit Builder")
     
   
     self.c = Canvas(self, bg='white', width=0.01, height=0.01)
