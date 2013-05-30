@@ -5,7 +5,7 @@ import os
 class MyTemplate(Toplevel):
   """Template to construct new window"""
 # Define constructor 
-  def __init__(self, parent, text=None, title=None):
+  def __init__(self, parent, text=None, title=None, buttonbox=True):
   # Set new window properties same as parent
     Toplevel.__init__(self, parent)
   
@@ -28,8 +28,9 @@ class MyTemplate(Toplevel):
     self.initial_focus = self.body(body)
    # Display body 
     body.pack(padx=5, pady=5)
-   # Create buttons 
-    self.buttonbox()
+   # Create buttons
+    if buttonbox:
+        self.buttonbox()
    # Create status bar 
     self.statusBar()
    # Take control of all the events    

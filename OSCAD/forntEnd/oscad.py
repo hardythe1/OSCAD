@@ -15,10 +15,10 @@ import openProject
 import os
 import Image
 import ImageTk
+import os
+import sys
 #  T=os.popen("ls -l").read()
 #  text.insert(END, T)
-
-
 
 # Create a new model
 def new_Project(e=None):
@@ -126,7 +126,7 @@ root.config(menu=menu)
 # Create File menu
 filemenu= Menu(menu)
 menu.add_cascade(label="Project", menu=filemenu)
-filemenu.add_command(label="New   F2", command=new_Project)
+filemenu.add_command(label="New F2", command=new_Project)
 filemenu.add_command(label="Open  F3", command=changeDirectory)
 filemenu.add_separator()
 filemenu.add_command(label="Exit  F4", command=exit_Project)
