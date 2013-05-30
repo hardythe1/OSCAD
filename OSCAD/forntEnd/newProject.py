@@ -239,7 +239,7 @@ class ProjectParam(template.MyTemplate):
     self.text.yview(END)
   # Call all pending idle tasks, without processing any other events.
     self.update_idletasks()
-    command="gnome-terminal -e \""+self.OSCAD_HOME+"/kicadtoNgspice/KicadtoNgspice.py "+self.projectName+".cir 1\""
+    command="xterm -e \""+self.OSCAD_HOME+"/kicadtoNgspice/KicadtoNgspice.py "+self.projectName+".cir 1\""
     try:
         thread.start_new_thread(self.call_system,(command,))
     except Exception,err:
@@ -265,7 +265,7 @@ class ProjectParam(template.MyTemplate):
     self.text.yview(END)
   # Call all pending idle tasks, without processing any other events.
     self.update_idletasks()
-    command="gnome-terminal -e \""+self.OSCAD_HOME+"/modelEditor/modelEditor.py " +self.projectName+".cir 1\""
+    command="xterm -e \""+self.OSCAD_HOME+"/modelEditor/modelEditor.py " +self.projectName+".cir 1\""
     try:
         thread.start_new_thread(self.call_system,(command,))
     except Exception,err:
@@ -291,7 +291,7 @@ class ProjectParam(template.MyTemplate):
     self.text.yview(END)
   # Call all pending idle tasks, without processing any other events.
     self.update_idletasks()
-    command="gnome-terminal -e \"ngspice "+self.projectName+".cir.out \""
+    command="xterm -e \"ngspice "+self.projectName+".cir.out \""
     try:
         thread.start_new_thread(self.call_system,(command,))
     except Exception,err:
