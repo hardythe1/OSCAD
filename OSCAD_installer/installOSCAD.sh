@@ -1,9 +1,20 @@
 #!/bin/bash
-# installOSCAD.sh is a script file to install OSCAD software. It is written by Yogesh Dilip Save (yogessave@gmail.com).  
+
+# installOSCAD.sh is a part of OSCAD.
+# Original Author: Yogesh Dilip Save (yogessave@gmail.com)
 # Copyright (C) 2012 Yogesh Dilip Save, FOSS Project, IIT Bombay.
-# This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
-# This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
-# You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
+
+# This program is free software; you can redistribute it and/or
+# modify it under the terms of the GNU General Public License as
+# published by the Free Software Foundation; either version 2 of the
+# License, or (at your option) any later version.  This program is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or
+# FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License
+# for more details.  You should have received a copy of the GNU
+# General Public License along with this program; if not, write to the
+# Free Software Foundation, Inc., 59 Temple Place - Suite 330, Boston,
+# MA 02111-1307, USA.
 
 echo -n "Is your internet connection behind proxy? (y/n): "
 read getProxy
@@ -230,7 +241,10 @@ else
   fi
 fi
 echo "Installation started..............."
-tar -zxvf OSCAD.tar.gz -C $installDir
+
+#tar -zxvf OSCAD.tar.gz -C $installDir
+cp -rv OSCAD $installDir
+
 cp $installDir/OSCAD/setPathInstall.py $installDir/OSCAD/setPath.py 
 
 echo "$installDir/OSCAD/setPathInstall.py"
@@ -250,7 +264,14 @@ chmod 755 $installDir/OSCAD/modelEditor/*.py
 chmod 755 $installDir/OSCAD/subcktEditor/*.py
 ln -sf $scilabPATH $installDir/OSCAD/bin/scilab54
 sudo ln -sf $installDir/OSCAD/forntEnd/oscad.py /usr/bin/oscad
+
+cp -v $installDir/OSCAD/images/logo.png /usr/share/icons/oscad.png
+
+echo "Setting up desktop icon..."
+cp -v oscad.desktop $HOME/Desktop/
+
 echo "Installation completed"
 
-ln -sf $installDir/OSCAD/forntEnd/oscad.py $HOME/Desktop/oscad
+
+
 
