@@ -11,7 +11,7 @@ from setPath import OSCAD_HOME
 
 def createSubckt(subcktName):
   """Read subcircuit netList"""
-  command="xterm -e \""+OSCAD_HOME+"/kicadtoNgspice/KicadtoNgspice.py "+subcktName+".cir 0\""
+  command="gnome-terminal -e \""+OSCAD_HOME+"/kicadtoNgspice/KicadtoNgspice.py "+subcktName+".cir 0\""
   os.system(command)
   
 # Open file if it exists

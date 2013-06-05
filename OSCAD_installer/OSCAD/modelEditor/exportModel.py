@@ -49,6 +49,7 @@ class ExportModel():
     if result=="OK":
       if len(sels) == 0:
         print 'You clicked on', result, '(no selection)'
+        tkMessageBox.showwarning("Error","Please select at least one option...")
         return
       else:
         self.modelName=sels[0]

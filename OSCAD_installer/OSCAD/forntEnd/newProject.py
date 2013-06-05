@@ -144,17 +144,32 @@ class ProjectParam(template.MyTemplate):
     buttonWindow2.pack(side=BOTTOM,fill="both", padx=2, pady=2,expand="Y")
     buttonWindow2.place(relheight=0.9, relwidth=0.25, rely=0.02, relx=0.67)"""
     
-    self.createButtonForCommand(buttonWindow,self.openSchematic,self.OSCAD_HOME+"/images/se.png","Schematic Editor")
-    self.createButtonForCommand(buttonWindow,self.openAnalysisInserter,self.OSCAD_HOME+"/images/an.png","Analysis Insertor")
-    self.createButtonForCommand(buttonWindow,self.openNetConverter,self.OSCAD_HOME+"/images/kn.png","NetList Converter")
-    self.createButtonForCommand(buttonWindow,self.openNgspice,self.OSCAD_HOME+"/images/ng.png","Ngspice")
-    self.createButtonForCommand(buttonWindow,self.openFootprint,self.OSCAD_HOME+"/images/fp.png","Footprint Editor")
-    self.createButtonForCommand(buttonWindow,self.openLayout,self.OSCAD_HOME+"/images/lout.png","Layout Editor")
-    self.createButtonForCommand(buttonWindow,self.openSMCSim,self.OSCAD_HOME+"/images/sci.png","SMCSim")
-    self.createButtonForCommand(buttonWindow,self.openModelBuilder,self.OSCAD_HOME+"/images/mb.png","Model builder")
-    self.createButtonForCommand(buttonWindow,self.openSubcircuitBuilder,self.OSCAD_HOME+"/images/sub.png","Subcircuit builder")
+    def createToolboxWithScilab():
+        self.createButtonForCommandWithScilab(buttonWindow,self.openSchematic,self.OSCAD_HOME+"/images/se.png","Schematic Editor")
+        self.createButtonForCommandWithScilab(buttonWindow,self.openAnalysisInserter,self.OSCAD_HOME+"/images/an.png","Analysis Insertor")
+        self.createButtonForCommandWithScilab(buttonWindow,self.openNetConverter,self.OSCAD_HOME+"/images/kn.png","NetList Converter")
+        self.createButtonForCommandWithScilab(buttonWindow,self.openNgspice,self.OSCAD_HOME+"/images/ng.png","Ngspice")
+        self.createButtonForCommandWithScilab(buttonWindow,self.openFootprint,self.OSCAD_HOME+"/images/fp.png","Footprint Editor")
+        self.createButtonForCommandWithScilab(buttonWindow,self.openLayout,self.OSCAD_HOME+"/images/lout.png","Layout Editor")
+        self.createButtonForCommandWithScilab(buttonWindow,self.openSMCSim,self.OSCAD_HOME+"/images/sci.png","SMCSim")
+        self.createButtonForCommandWithScilab(buttonWindow,self.openModelBuilder,self.OSCAD_HOME+"/images/mb.png","Model builder")
+        self.createButtonForCommandWithScilab(buttonWindow,self.openSubcircuitBuilder,self.OSCAD_HOME+"/images/sub.png","Subcircuit builder")
 
+    def createToolboxWithoutScilab():
+        self.createButtonForCommandWithoutScilab(buttonWindow,self.openSchematic,self.OSCAD_HOME+"/images/se.png","Schematic Editor")
+        self.createButtonForCommandWithoutScilab(buttonWindow,self.openAnalysisInserter,self.OSCAD_HOME+"/images/an.png","Analysis Insertor")
+        self.createButtonForCommandWithoutScilab(buttonWindow,self.openNetConverter,self.OSCAD_HOME+"/images/kn.png","NetList Converter")
+        self.createButtonForCommandWithoutScilab(buttonWindow,self.openNgspice,self.OSCAD_HOME+"/images/ng.png","Ngspice")
+        self.createButtonForCommandWithoutScilab(buttonWindow,self.openFootprint,self.OSCAD_HOME+"/images/fp.png","Footprint Editor")
+        self.createButtonForCommandWithoutScilab(buttonWindow,self.openLayout,self.OSCAD_HOME+"/images/lout.png","Layout Editor")
+        self.createButtonForCommandWithoutScilab(buttonWindow,self.openModelBuilder,self.OSCAD_HOME+"/images/mb.png","Model builder")
+        self.createButtonForCommandWithoutScilab(buttonWindow,self.openSubcircuitBuilder,self.OSCAD_HOME+"/images/sub.png","Subcircuit builder")
     
+    if os.path.isfile(OSCAD_HOME + "/bin/scilab54"):
+        createToolboxWithScilab()
+    else:
+        createToolboxWithoutScilab()
+        
   # Protocol for deletion of main window
     self.protocol("WM_DELETE_WINDOW",self.exitProject)
     
@@ -172,13 +187,24 @@ class ProjectParam(template.MyTemplate):
     self.bind("<F1>", self.helpProject)
     self.focus_set()"""
 
-  def createButtonForCommand(self,frameName,commandName,imagePath,textlabel):
+  def createButtonForCommandWithScilab(self,frameName,commandName,imagePath,textlabel):
   # Open images
     im = Image.open(imagePath)
     photo = ImageTk.PhotoImage(im)
   
   # Create button and set label for tools
     w = Button(frameName, image=photo, width=45, height=30, command=commandName, default=ACTIVE)
+    w.image=photo
+    w.pack(side=TOP, padx=1, pady=1)
+    toolTip.createToolTip(w,textlabel)
+  
+  def createButtonForCommandWithoutScilab(self,frameName,commandName,imagePath,textlabel):
+  # Open images
+    im = Image.open(imagePath)
+    photo = ImageTk.PhotoImage(im)
+  
+  # Create button and set label for tools
+    w = Button(frameName, image=photo, width=45, height=35, command=commandName, default=ACTIVE)
     w.image=photo
     w.pack(side=TOP, padx=1, pady=1)
     toolTip.createToolTip(w,textlabel)

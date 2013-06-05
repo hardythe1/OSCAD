@@ -64,13 +64,19 @@ class ModelNameList():
           modelType="D"
         elif eachline[0]=='q':
           modelName=words[4]
-          modelType=raw_input("Please enter type of BJT(NPN/PNP): ")
-          modelType=modelType.upper()
-	elif eachline[0]=='m':
-          modelName=words[4]
-          modelType=raw_input("Please enter type of MOS(nmos/pmos): ")
-          modelType=modelType.upper()
-
+          transistors = ["NPN","PNP"]
+          self.dialog1 = Pmw.SelectionDialog(parent,title = 'Select Transistor Type',buttons = ('OK', 'Cancel'),defaultbutton = 'OK',scrolledlist_labelpos = 'n', label_text = 'Please select one', scrolledlist_items=transistors)
+          self.dialog1.pack(fill = 'both', expand=1, padx=5, pady=5)
+          self.dialog1.activate()
+          modelType = self.dialog1.getcurselection()
+        elif eachline[0]=='m':
+            modelName=words[4]
+            transistors = ["nmos","pmos"]
+            self.dialog1 = Pmw.SelectionDialog(parent,title = 'Select Transistor Type',buttons = ('OK', 'Cancel'),defaultbutton = 'OK',scrolledlist_labelpos = 'n', label_text = 'Please select one', scrolledlist_items=transistors)
+            self.dialog1.pack(fill = 'both', expand=1, padx=5, pady=5)
+            self.dialog1.activate()
+            modelType = self.dialog1.getcurselection()
+          
         else:
           continue
         if modelName in modelList:
