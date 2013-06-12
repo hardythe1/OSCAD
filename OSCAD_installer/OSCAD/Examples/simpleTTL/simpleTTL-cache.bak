@@ -1,4 +1,4 @@
-EESchema-LIBRARY Version 2.3  Date: Thursday 20 December 2012 12:04:47 AM IST
+EESchema-LIBRARY Version 2.3  Date: Wednesday 19 December 2012 11:57:43 PM IST
 #encoding utf-8
 #
 # 74LS00
@@ -61,6 +61,18 @@ DRAW
 C 0 0 150 0 1 0 N
 X + 1 0 450 300 D 50 50 1 1 P
 X - 2 0 -450 300 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# differentiator
+#
+DEF differentiator U 0 20 Y Y 1 F N
+F0 "U" 0 0 40 H V C CNN
+F1 "differentiator" 50 100 40 H V C CNN
+DRAW
+P 4 0 1 0  -150 -150  -150 150  150 0  -150 -150 N
+X in 1 -300 0 150 R 30 30 1 1 I
+X out 2 300 0 150 L 30 30 1 1 O
 ENDDRAW
 ENDDEF
 #

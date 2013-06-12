@@ -1,8 +1,8 @@
-update=Friday 12 April 2013 04:50:48 PM IST
+update=Monday 22 October 2012 04:25:50 PM IST
 last_client=eeschema
 [eeschema]
 version=1
-LibDir=/home/hardik/OSCAD/library
+LibDir=/home/yogesh/OSCAD/library
 NetFmt=1
 HPGLSpd=20
 HPGLDm=15

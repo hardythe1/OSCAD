@@ -1,46 +1,39 @@
-# EESchema Netlist Version 1.1 created  Friday 12 April 2013 05:47:15 PM IST
+# EESchema Netlist Version 1.1 created  Monday 22 October 2012 04:28:50 PM IST
 (
- ( /50C41A9A $noname  U1 VPLOT8 {Lib=VPLOT8}
-  (    1 N-000003 )
-  (    2 N-000004 )
-  (    9 N-000001 )
-  (   10 GND )
+ ( /506BDD23 D3 D1 1n4007
+  ( 1 N-000003 )
+  ( 2 N-000004 )
  )
- ( /506BDD71 R1  V1 SINE {Lib=SINE}
-  (    1 N-000003 )
-  (    2 N-000001 )
+ ( /506BDD29 D3 D2 1n4007
+  ( 1 N-000001 )
+  ( 2 N-000004 )
  )
- ( /506BDD54 $noname  R1 1000 {Lib=R}
-  (    1 N-000004 )
-  (    2 GND )
+ ( /506BDD38 D3 D3 1n4007
+  ( 1 GND )
+  ( 2 N-000003 )
  )
- ( /506BDD38 $noname  D3 1n4007 {Lib=DIODE}
-  (    1 GND )
-  (    2 N-000003 )
+ ( /506BDD2F D3 D4 1n4007
+  ( 1 GND )
+  ( 2 N-000001 )
  )
- ( /506BDD2F $noname  D4 1n4007 {Lib=DIODE}
-  (    1 GND )
-  (    2 N-000001 )
+ ( /506BDD54 R3 R1 1000
+  ( 1 N-000004 )
+  ( 2 GND )
  )
- ( /506BDD29 $noname  D2 1n4007 {Lib=DIODE}
-  (    1 N-000001 )
-  (    2 N-000004 )
- )
- ( /506BDD23 $noname  D1 1n4007 {Lib=DIODE}
-  (    1 N-000003 )
-  (    2 N-000004 )
+ ( /506BDD71 R1 V1 SINE
+  ( 1 N-000003 )
+  ( 2 N-000001 )
  )
 )
 *
 { Allowed footprints by component:
-$component V1
- 1_pin
+$component D1
+ D?
+ S*
 $endlist
-$component R1
- R?
- SM0603
- SM0805
- R?-*
+$component D2
+ D?
+ S*
 $endlist
 $component D3
  D?
@@ -50,36 +43,14 @@ $component D4
  D?
  S*
 $endlist
-$component D2
- D?
- S*
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
 $endlist
-$component D1
- D?
- S*
+$component V1
+ 1_pin
 $endlist
 $endfootprintlist
 }
-{ Pin List by Nets
-Net 1 "" ""
- D4 2
- D2 1
- V1 2
- U1 9
-Net 2 "GND" "GND"
- D4 1
- U1 10
- R1 2
- D3 1
-Net 3 "" ""
- D3 2
- D1 1
- U1 1
- V1 1
-Net 4 "" ""
- D1 2
- U1 2
- D2 2
- R1 1
-}
-#End

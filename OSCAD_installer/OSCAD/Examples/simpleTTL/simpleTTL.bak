@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thursday 20 December 2012 12:04:47 AM IST
+EESchema Schematic File Version 2  date Wednesday 19 December 2012 11:57:43 PM IST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -53,11 +53,31 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Connection ~ 5550 3450
+$Comp
+L DIFFERENTIATOR U3
+U 1 1 50D20702
+P 6400 4150
+F 0 "U3" H 6400 4150 40  0000 C CNN
+F 1 "DIFFERENTIATOR" H 6450 4250 40  0000 C CNN
+	1    6400 4150
+	1    0    0    -1  
+$EndComp
+Connection ~ 6900 4150
 Wire Wire Line
-	5550 3300 5550 3600
+	5550 3300 6900 3300
 Wire Wire Line
-	2950 4600 5550 4600
+	6900 3300 6900 4150
+Connection ~ 4000 3350
+Wire Wire Line
+	6100 4150 4000 4150
+Wire Wire Line
+	4000 4150 4000 3350
+Wire Wire Line
+	7000 4200 7000 4150
+Wire Wire Line
+	7000 4150 6700 4150
+Wire Wire Line
+	5550 4600 2950 4600
 Connection ~ 4500 4600
 Wire Wire Line
 	4500 4300 4500 4600
@@ -77,9 +97,25 @@ Wire Wire Line
 	3450 3350 3450 3250
 Connection ~ 3450 3350
 Wire Wire Line
-	5550 3450 5350 3450
+	5350 3450 5550 3450
 Wire Wire Line
-	5550 4600 5550 4100
+	5550 4100 5550 4950
+Wire Wire Line
+	5550 4950 7000 4950
+Wire Wire Line
+	7000 4950 7000 4700
+Connection ~ 5550 4600
+Wire Wire Line
+	5550 3450 5550 3600
+$Comp
+L R R2
+U 1 1 50D20135
+P 7000 4450
+F 0 "R2" V 7080 4450 50  0000 C CNN
+F 1 "1000" V 7000 4450 50  0000 C CNN
+	1    7000 4450
+	1    0    0    -1  
+$EndComp
 $Comp
 L VPLOT8_1 U2
 U 2 1 50CEBA04

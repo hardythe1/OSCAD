@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tuesday 02 April 2013 03:02:37 PM IST
+EESchema Schematic File Version 2  date Sunday 09 December 2012 03:22:19 PM IST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,6 +29,13 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:analogSpice
+LIBS:converterSpice
+LIBS:digitalSpice
+LIBS:linearSpice
+LIBS:measurementSpice
+LIBS:portSpice
+LIBS:sourcesSpice
 LIBS:bridgeRectifierFilter-cache
 EELAYER 25  0
 EELAYER END
@@ -36,7 +43,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "2 apr 2013"
+Date "9 dec 2012"
 Rev ""
 Comp ""
 Comment1 ""
