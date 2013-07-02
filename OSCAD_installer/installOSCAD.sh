@@ -5,53 +5,28 @@
 # This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
 # You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
 
-echo -n "Is your internet connection behind proxy? (y/n): "
-read getProxy
-
-if [ $getProxy == "y" -o $getProxy == "Y" ]
-then
-    echo -n 'Proxy Hostname :'
-read proxyHostname
-
-echo -n 'Proxy Port :'
-read proxyPort
-
-echo -n username@$proxyHostname:$proxyPort :
+function proxy
+{
+echo -n 'Login@netmon :'
 read username
-
-echo -n 'Password :'
-read -s passwd
-
+echo -n 'Passwd :'
+stty -echo
+read passwd
+stty echo
 unset http_proxy
 unset https_proxy
 unset HTTP_PROXY
 unset HTTPS_PROXY
 unset ftp_proxy
 unset FTP_PROXY
-
-export http_proxy=http://$username:$passwd@$proxyHostname:$proxyPort
-export https_proxy=http://$username:$passwd@$proxyHostname:$proxyPort
-export https_proxy=http://$username:$passwd@$proxyHostname:$proxyPort
-export HTTP_PROXY=http://$username:$passwd@$proxyHostname:$proxyPort
-export HTTPS_PROXY=http://$username:$passwd@$proxyHostname:$proxyPort
-export ftp_proxy=http://$username:$passwd@$proxyHostname:$proxyPort
-export FTP_PROXY=http://$username:$passwd@$proxyHostname:$proxyPort
-"$@"
+export http_proxy=http://$username:$passwd@netmon.iitb.ac.in:80
+export https_proxy=http://$username:$passwd@netmon.iitb.ac.in:80
+export HTTP_PROXY=http://$username:$passwd@netmon.iitb.ac.in:80
+export HTTPS_PROXY=http://$username:$passwd@netmon.iitb.ac.in:80
+export ftp_proxy=http://$username:$passwd@netmon.iitb.ac.in:80
+export FTP_PROXY=http://$username:$passwd@netmon.iitb.ac.in:80
 echo
-	sudo apt-get install kicad ngspice python
-elif [ $getProxy == "n" -o $getProxy == "N" ]
-then
-	sudo apt-get install kicad ngspice python
-        if [ $? -ne 0 ] 
-	then
-        	echo -e "\n\n\nOSCAD ERROR: Unable to install required packages. Please check your internet connection.\n\n"
-                exit 0
-	fi
-else
-     echo "Please select the right option"
-     exit 0	
-fi
-
+}
 
 function checkScilabVersion
 {
@@ -74,13 +49,13 @@ function checkMetanet
   then
     echo "No Metanet graph library found"
     echo "Trying to install metanet library........" 
-    #echo -n "Do you want to set proxy for internet connection(y/n): "
-    #read setProxy
+    echo -n "Do you want to set proxy for internet connection(y/n): "
+    read setProxy
 
-    #if [ $setProxy = 'y' -o $setProxy = 'Y' ]
-    #then
-    #  proxy
-    #fi
+    if [ $setProxy = 'y' -o $setProxy = 'Y' ]
+    then
+      proxy
+    fi
     eval $1 -nw -f installMetanet.sci
     RetVal=$?
     if [ $RetVal -ne 0 ]
@@ -92,11 +67,83 @@ function checkMetanet
   fi
 }
 
+linuxVersion=`uname -m`
+echo "Checking eeschema ......................"
+command -v eeschema >/dev/null 2>&1
+RetVal=$?
+if [ $RetVal -eq 0 ] 
+then 
+  echo "Found eeschema."
+else
+  ./installModule.sh kicad 
+  command -v eeschema >/dev/null 2>&1
+  RetVal=$?
+  if [ $RetVal -ne 0 ] 
+  then 
+    echo "Unable to install  Kicad"
+    echo "Require eeschema but it's not installed. Aborting." >&2; exit 1; 
+  fi
+fi
+
+echo "Checking pcbnew ......................"
+command -v pcbnew >/dev/null 2>&1 
+RetVal=$?
+if [ $RetVal -eq 0 ] 
+then 
+  echo "Found pcbnew."
+else
+  echo "Require pcbnew but it's not installed. Aborting." >&2; exit 1; 
+fi
+
+echo "Checking cvpcb ......................"
+command -v cvpcb >/dev/null 2>&1 
+RetVal=$?
+if [ $RetVal -eq 0 ] 
+then 
+  echo "Found cvpcb."
+else
+  echo "Require cvpcb but it's not installed. Aborting." >&2; exit 1; 
+fi
+
+echo "Checking ngspice ......................"
+command -v ngspice >/dev/null 2>&1 
+RetVal=$?
+if [ $RetVal -eq 0 ] 
+then 
+  echo "Found ngspice."
+else
+  ./installModule.sh ngspice 
+  command -v ngspice >/dev/null 2>&1
+  RetVal=$?
+  if [ $RetVal -ne 0 ] 
+  then 
+    echo "Unable to install  ngspice"
+    echo "Require ngspice but it's not installed. Aborting." >&2; exit 1; 
+  fi
+fi
+
+echo "Checking python ......................"
+command -v python >/dev/null 2>&1 
+RetVal=$?
+if [ $RetVal -eq 0 ] 
+then 
+  echo "Found python."
+else
+  ./installModule.sh python 
+  command -v python >/dev/null 2>&1
+  RetVal=$?
+  if [ $RetVal -ne 0 ] 
+  then 
+    echo "Unable to install python"
+    echo "Require python but it's not installed. Aborting." >&2; exit 1; 
+  fi
+fi
+
 echo "Checking python Modules......................"
 ./checkPythonModules.py
 RetVal=$?
 [ $RetVal -eq 0 ] && echo "All python modules are available"
-[ $RetVal -eq 1 ] && { echo "Some python modules are not available. Kindly install them and then re-run installOSCAD.sh"; exit 1; }
+[ $RetVal -eq 1 ] && { echo "Some python modules are not available. Kindly install them"; exit 1; }
 [ $RetVal -ne 1 ] && [ $RetVal -ne 0 ] && { echo "Unable to check modules"; exit 1; } 
 
 echo "Checking scilab ......................"
@@ -148,11 +195,11 @@ then
         exit 1   
       fi
     else 
-      if [[ $linuxVersion == "x86_64" ]]
+      if [ $linuxVersion = "x86_64" ]
       then
         echo -e " \e[1m Please download scilab 5.4.0 for 64 bits (Linux) from http://www.scilab.org/products/scilab/download \e[0m"
       else
-        echo -e " '\e[1m' Please download scilab 5.4.0 for 32 bits (Linux) from http://www.scilab.org/products/scilab/download '\e[0m'"
+        echo -e " \e1m' Please download scilab 5.4.0 for 32 bits (Linux) from http://www.scilab.org/products/scilab/download '\e[0m'"
       fi
       echo " And re-run install_OSCAD.sh "
       exit 1   
@@ -230,17 +277,9 @@ else
   fi
 fi
 echo "Installation started..............."
-tar -zxvf OSCAD.tar.gz -C $installDir
-cp $installDir/OSCAD/setPathInstall.py $installDir/OSCAD/setPath.py 
-
-echo "$installDir/OSCAD/setPathInstall.py"
-cat $installDir/OSCAD/setPathInstall.py
-echo "$installDir/OSCAD/setPath.py"
-cat $installDir/OSCAD/setPath.py
-
-cp $installDir/OSCAD/setPathInstall.py $installDir/OSCAD/forntEnd/setPath.py
+tar -zxvf OSCAD.tgz -C $installDir
+cp $installDir/OSCAD/setPathInstall.py $installDir/OSCAD/setPath.py
 sed -i 's@set_PATH_to_OSCAD@"'$installDir'/OSCAD"@g' $installDir/OSCAD/setPath.py
-cp $installDir/OSCAD/setPath.py $installDir/OSCAD/forntEnd/setPath.py 
 cp $installDir/OSCAD/LPCSim/LPCSim/MainInstall.sci  $installDir/OSCAD/LPCSim/LPCSim/Main.sci
 sed -i 's@set_PATH_to_OSCAD@"'$installDir'/OSCAD"@g' $installDir/OSCAD/LPCSim/LPCSim/Main.sci
 chmod 755 $installDir/OSCAD/analysisInserter/*.py
