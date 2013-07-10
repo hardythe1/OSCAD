@@ -104,6 +104,7 @@ function checkMetanet
 }
 
 echo "Checking python Modules......................"
+sudo chmod 755 ./checkPythonModules.py
 ./checkPythonModules.py
 RetVal=$?
 [ $RetVal -eq 0 ] && echo "All python modules are available"
@@ -260,7 +261,10 @@ cat $installDir/OSCAD/setPath.py
 
 cp $installDir/OSCAD/setPathInstall.py $installDir/OSCAD/forntEnd/setPath.py
 sed -i 's@set_PATH_to_OSCAD@"'$installDir'/OSCAD"@g' $installDir/OSCAD/setPath.py
+sed -i 's@set_PATH_to_OSCAD@"'$installDir'/OSCAD"@g' $installDir/OSCAD/modelEditor/setPath.py
 cp $installDir/OSCAD/setPath.py $installDir/OSCAD/forntEnd/setPath.py 
+cp $installDir/OSCAD/setPath.py $installDir/OSCAD/subcktEditor/setPath.py 
+cp $installDir/OSCAD/setPath.py $installDir/OSCAD/modelEditor/setPath.py 
 cp $installDir/OSCAD/LPCSim/LPCSim/MainInstall.sci  $installDir/OSCAD/LPCSim/LPCSim/Main.sci
 sed -i 's@set_PATH_to_OSCAD@"'$installDir'/OSCAD"@g' $installDir/OSCAD/LPCSim/LPCSim/Main.sci
 chmod 755 $installDir/OSCAD/analysisInserter/*.py
